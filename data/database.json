@@ -1,0 +1,4088 @@
+{
+  "activeUserId": null,
+  "activeProfileId": "stu-101",
+  "users": [
+    {
+      "id": "usr-stu-101",
+      "name": "Arjun Sharma",
+      "email": "arjun@msot.edu",
+      "password": "password123",
+      "role": "student",
+      "profileId": "stu-101"
+    },
+    {
+      "id": "usr-stu-102",
+      "name": "Priya Patel",
+      "email": "priya@msot.edu",
+      "password": "password123",
+      "role": "student",
+      "profileId": "stu-102"
+    },
+    {
+      "id": "usr-stu-103",
+      "name": "Rohan Verma",
+      "email": "rohan@msot.edu",
+      "password": "password123",
+      "role": "student",
+      "profileId": "stu-103"
+    },
+    {
+      "id": "usr-stu-104",
+      "name": "Sneha Rao",
+      "email": "sneha@msot.edu",
+      "password": "password123",
+      "role": "student",
+      "profileId": "stu-104"
+    },
+    {
+      "id": "usr-stu-105",
+      "name": "Kunal Joshi",
+      "email": "kunal@msot.edu",
+      "password": "password123",
+      "role": "student",
+      "profileId": "stu-105"
+    },
+    {
+      "id": "usr-staff-1",
+      "name": "Prof. K. Venkatesh",
+      "email": "placement@msot.edu",
+      "password": "password123",
+      "role": "staff",
+      "department": "Head of Placements, MSOT"
+    },
+    {
+      "id": "usr-1792425936877",
+      "name": "Rohan Test Candidate",
+      "email": "rohan.test@msot.edu",
+      "password": "password123",
+      "role": "student",
+      "profileId": "stu-1792425936877"
+    },
+    {
+      "id": "usr-1792426852588",
+      "name": "Liam Payne",
+      "email": "lian5@gmail.com",
+      "password": "i7656m",
+      "role": "student",
+      "profileId": "stu-1792426852588"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "stu-101",
+      "name": "Arjun Sharma",
+      "email": "arjun.sharma23@msot.edu",
+      "phone": "+91 98765 43210",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "graduationYear": "2026",
+      "cgpa": "8.65",
+      "targetRole": "Full Stack Engineer / SDE-1",
+      "targetLocations": [
+        "Bengaluru",
+        "Hyderabad",
+        "Remote"
+      ],
+      "consentGiven": true,
+      "skills": {
+        "languages": [
+          "JavaScript",
+          "TypeScript",
+          "Python",
+          "C++",
+          "SQL"
+        ],
+        "frontend": [
+          "React.js",
+          "Next.js",
+          "HTML5",
+          "CSS3",
+          "TailwindCSS",
+          "Redux Toolkit"
+        ],
+        "backend": [
+          "Node.js",
+          "Express.js",
+          "FastAPI",
+          "RESTful APIs",
+          "WebSockets"
+        ],
+        "databases": [
+          "PostgreSQL",
+          "MongoDB",
+          "Redis"
+        ],
+        "devops": [
+          "Docker",
+          "Git",
+          "GitHub Actions",
+          "AWS (S3, EC2)",
+          "Linux"
+        ],
+        "core": [
+          "Data Structures & Algorithms",
+          "DBMS",
+          "Operating Systems",
+          "Object Oriented Design"
+        ],
+        "custom": [
+          "LangChain Agents"
+        ]
+      },
+      "resume": {
+        "fileName": "Arjun_Sharma_Resume.pdf",
+        "pageCount": 1,
+        "uploadedAt": "2026-10-18T10:30:00Z",
+        "rawText": "ARJUN SHARMA\nBengaluru, India | +91 98765 43210 | arjun.sharma23@msot.edu\nGitHub: github.com/arjunsharma-dev | LinkedIn: linkedin.com/in/arjun-sharma-tech | LeetCode: leetcode.com/arjun_codes\n\nEDUCATION\nMSOT College of Engineering, Bengaluru\nB.Tech in Computer Science and Engineering | CGPA: 8.65 / 10.0 (2022 – 2026)\nRelevant Coursework: Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks.\n\nTECHNICAL SKILLS\nLanguages: C++, Python, JavaScript (ES6+), TypeScript, SQL\nFrameworks & Libraries: React.js, Next.js, Node.js, Express.js, FastAPI, Tailwind CSS, Redux\nDatabases & Cloud: PostgreSQL, MongoDB, Redis, Docker, Git, AWS (S3, EC2)\n\nPROJECTS\n1. CollabCode - Real-time Collaborative Code Editor\n- Built a multi-user collaborative code editor supporting 5 programming languages with real-time cursor sync.\n- Architected WebSocket communication using Socket.io and Redis Pub/Sub, achieving sub-45ms sync latency across 20+ concurrent users per room.\n- Integrated Dockerized isolated code execution engine supporting sandboxed code compilation.\n- Tech Stack: React, Node.js, Socket.io, Redis, Docker, PostgreSQL.\n- GitHub: github.com/arjunsharma-dev/collab-code | Live: https://collabcode.demo.app\n\n2. CampusCart - Peer-to-Peer Campus Marketplace\n- Developed a high-performance student marketplace serving 1,200+ active campus users.\n- Designed REST APIs with JWT authentication, image uploads via AWS S3, and optimized PostgreSQL indexing, reducing median query time by 38%.\n- Integrated Razorpay payment gateway sandbox for escrow transactions.\n- Tech Stack: Next.js, Express.js, PostgreSQL, Prisma, AWS S3, Tailwind CSS.\n- GitHub: github.com/arjunsharma-dev/campus-cart | Live: https://campuscart-msot.vercel.app\n\n3. DevPulse - Developer Productivity & Git Analytics Tool\n- Created a GitHub repository health analyzer that scores commit patterns and PR turnaround times.\n- Analyzed 500+ repositories using GitHub REST API and visualized velocity metrics with Chart.js.\n- Tech Stack: React, FastAPI, Python, Chart.js.\n- GitHub: github.com/arjunsharma-dev/dev-pulse\n\nEXPERIENCE / OPEN SOURCE\nFrontend Engineering Intern | TechNova Labs (June 2025 – August 2025)\n- Migrated legacy dashboard views from React Class components to React Hooks and TypeScript, decreasing bundle size by 24%.\n- Implemented client-side caching with React Query, decreasing redundant API roundtrips by 40%.\n\nACHIEVEMENTS & CO-CURRICULAR\n- Winner (1st place out of 85 teams), HackMSOT 2025 for CollabCode real-time engine.\n- Solved 340+ problems on LeetCode (Rating: 1685, Top 12% globally).\n- Technical Lead, MSOT Open Source Developers Club; mentored 60+ junior students in Git and web development."
+      },
+      "linkedIn": {
+        "profileUrl": "https://linkedin.com/in/arjun-sharma-tech",
+        "headline": "Computer Science Undergrad @ MSOT | Full Stack Developer | React, Node.js, TypeScript",
+        "about": "I'm a pre-final year CS student passionate about building scalable web applications and real-time distributed systems. Experienced with React, Node.js, TypeScript, and Docker. Winner of HackMSOT 2025. Always excited to tackle challenging engineering problems.",
+        "experienceMatch": true,
+        "skillsListed": [
+          "React.js",
+          "Node.js",
+          "TypeScript",
+          "PostgreSQL",
+          "Docker",
+          "Socket.io",
+          "Data Structures"
+        ],
+        "connectionsCount": 380,
+        "activityLevel": "Moderate"
+      },
+      "github": {
+        "username": "arjunsharma-dev",
+        "profileUrl": "https://github.com/arjunsharma-dev",
+        "reposCount": 18,
+        "pinnedRepos": [
+          "collab-code",
+          "campus-cart",
+          "dev-pulse"
+        ],
+        "commitCountLastYear": 420,
+        "hasReadme": true,
+        "hasCleanCommits": true,
+        "noSecretsFound": true
+      },
+      "leetCode": {
+        "username": "arjun_codes",
+        "profileUrl": "https://leetcode.com/arjun_codes",
+        "totalSolved": 342,
+        "easy": 120,
+        "medium": 184,
+        "hard": 38,
+        "contestRating": 1685,
+        "globalRank": "Top 12%"
+      },
+      "projects": [
+        {
+          "id": "proj-1",
+          "name": "CollabCode",
+          "tagline": "Real-time collaborative code editor with sandboxed execution",
+          "techStack": [
+            "React",
+            "Node.js",
+            "Socket.io",
+            "Redis",
+            "Docker",
+            "PostgreSQL"
+          ],
+          "githubUrl": "https://github.com/arjunsharma-dev/collab-code",
+          "liveUrl": "https://collabcode.demo.app",
+          "hasLiveLink": true,
+          "isLiveActive": true,
+          "hasReadme": true,
+          "hasTests": true,
+          "stars": 42
+        },
+        {
+          "id": "proj-2",
+          "name": "CampusCart",
+          "tagline": "Peer-to-peer campus marketplace with escrow payments",
+          "techStack": [
+            "Next.js",
+            "Express.js",
+            "PostgreSQL",
+            "Prisma",
+            "AWS S3"
+          ],
+          "githubUrl": "https://github.com/arjunsharma-dev/campus-cart",
+          "liveUrl": "https://campuscart-msot.vercel.app",
+          "hasLiveLink": true,
+          "isLiveActive": true,
+          "hasReadme": true,
+          "hasTests": false,
+          "stars": 18
+        },
+        {
+          "id": "proj-3",
+          "name": "DevPulse",
+          "tagline": "Developer productivity and Git repository analytics tool",
+          "techStack": [
+            "React",
+            "FastAPI",
+            "Python",
+            "Chart.js"
+          ],
+          "githubUrl": "https://github.com/arjunsharma-dev/dev-pulse",
+          "liveUrl": "",
+          "hasLiveLink": false,
+          "isLiveActive": false,
+          "hasReadme": true,
+          "hasTests": false,
+          "stars": 9
+        }
+      ],
+      "achievements": [
+        "Winner (1st place out of 85 teams), HackMSOT 2025",
+        "Solved 340+ problems on LeetCode (Rating: 1685, Top 12%)",
+        "Technical Lead, MSOT Open Source Developers Club",
+        "AWS Certified Cloud Practitioner (2025)"
+      ],
+      "customSkills": [
+        {
+          "name": "LangChain Agents",
+          "category": "AI & GenAI",
+          "proficiency": "Advanced",
+          "likesToDo": "Build autonomous multi-agent systems with vector retrieval",
+          "addedAt": "2026-10-19T13:17:02.908Z"
+        }
+      ],
+      "personality": {
+        "archetype": "The Cloud & DevOps SRE",
+        "traits": {
+          "architectureDepth": 95,
+          "problemSolving": 88,
+          "productEmpathy": 75,
+          "engineeringSpeed": 90,
+          "communication": 82
+        },
+        "elevatorPitch": "Zero downtime k8s.",
+        "updatedAt": "2026-10-19T16:58:20.474Z"
+      }
+    },
+    {
+      "id": "stu-102",
+      "name": "Priya Patel",
+      "email": "priya.patel23@msot.edu",
+      "phone": "+91 97123 45678",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech in Artificial Intelligence & Data Science",
+      "graduationYear": "2026",
+      "cgpa": "9.12",
+      "targetRole": "AI / ML Engineer",
+      "targetLocations": [
+        "Bengaluru",
+        "Pune",
+        "Remote"
+      ],
+      "consentGiven": true,
+      "skills": {
+        "languages": [
+          "Python",
+          "C++",
+          "SQL",
+          "Julia"
+        ],
+        "frontend": [
+          "Streamlit",
+          "Gradio",
+          "HTML/CSS"
+        ],
+        "backend": [
+          "FastAPI",
+          "Flask",
+          "Docker",
+          "REST APIs"
+        ],
+        "databases": [
+          "PostgreSQL",
+          "ChromaDB",
+          "Milvus",
+          "MongoDB"
+        ],
+        "devops": [
+          "Docker",
+          "Git",
+          "Weights & Biases",
+          "MLflow",
+          "HuggingFace Hub"
+        ],
+        "core": [
+          "Deep Learning",
+          "NLP",
+          "Computer Vision",
+          "Transformers",
+          "Data Structures"
+        ]
+      },
+      "resume": {
+        "fileName": "Priya_Patel_AI_Resume.pdf",
+        "pageCount": 1,
+        "uploadedAt": "2026-10-17T11:00:00Z",
+        "rawText": "PRIYA PATEL\nBengaluru, India | priya.patel23@msot.edu | +91 97123 45678\nGitHub: github.com/priyapatel-ai | LinkedIn: linkedin.com/in/priya-patel-ai | LeetCode: leetcode.com/priya_ml\n\nEDUCATION\nMSOT College of Engineering, Bengaluru\nB.Tech in Artificial Intelligence & Data Science | CGPA: 9.12 / 10.0 (2022 - 2026)\n\nTECHNICAL SKILLS\nAI & ML: PyTorch, TensorFlow, HuggingFace, Scikit-learn, LangChain, LlamaIndex, Vector DBs\nTools & Platforms: Docker, FastAPI, Git, MLflow, Weights & Biases, AWS S3\n\nPROJECTS\n1. MedRag - Medical Question Answering with Hybrid RAG\n- Fine-tuned Mistral-7B with LoRA on PubMed datasets; implemented semantic retrieval using ChromaDB.\n- Improved answer precision by 32% compared to vanilla retrieval, serving 400+ queries/day.\n- Tech Stack: Python, PyTorch, HuggingFace, ChromaDB, FastAPI, Streamlit.\n- GitHub: github.com/priyapatel-ai/med-rag | Live: https://medrag.hf.space\n\n2. VisionAudit - Defect Detection in Manufacturing Lines\n- Trained YOLOv8 models achieving 94.6% mAP on industrial surface defect datasets.\n- Exported ONNX runtime pipeline with OpenCV inference under 22ms per frame.\n- Tech Stack: Python, PyTorch, YOLOv8, OpenCV, Docker.\n- GitHub: github.com/priyapatel-ai/vision-audit | Live: https://visionaudit-demo.com\n\nACHIEVEMENTS\n- Smart India Hackathon (SIH) 2024 Finalist (Top 5 in AI domain).\n- Solved 450+ LeetCode problems (Contest Rating: 1810, Knight).\n- 2 research publications under review in IEEE student symposium."
+      },
+      "linkedIn": {
+        "profileUrl": "https://linkedin.com/in/priya-patel-ai",
+        "headline": "AI/ML Researcher & Developer @ MSOT | PyTorch, LLMs, Computer Vision",
+        "about": "Passionate about pushing boundaries in applied NLP and generative models. Experienced in fine-tuning open-weights models and building low-latency RAG pipelines.",
+        "experienceMatch": true,
+        "skillsListed": [
+          "PyTorch",
+          "Python",
+          "Transformers",
+          "FastAPI",
+          "Vector DB",
+          "Docker"
+        ],
+        "connectionsCount": 510,
+        "activityLevel": "High"
+      },
+      "github": {
+        "username": "priyapatel-ai",
+        "profileUrl": "https://github.com/priyapatel-ai",
+        "reposCount": 24,
+        "pinnedRepos": [
+          "med-rag",
+          "vision-audit",
+          "lora-finetuning"
+        ],
+        "commitCountLastYear": 580,
+        "hasReadme": true,
+        "hasCleanCommits": true,
+        "noSecretsFound": true
+      },
+      "leetCode": {
+        "username": "priya_ml",
+        "profileUrl": "https://leetcode.com/priya_ml",
+        "totalSolved": 456,
+        "easy": 140,
+        "medium": 260,
+        "hard": 56,
+        "contestRating": 1810,
+        "globalRank": "Top 5%"
+      },
+      "projects": [
+        {
+          "id": "proj-p1",
+          "name": "MedRag",
+          "tagline": "Clinical literature hybrid RAG with LoRA Mistral-7B",
+          "techStack": [
+            "Python",
+            "PyTorch",
+            "FastAPI",
+            "ChromaDB",
+            "Streamlit"
+          ],
+          "githubUrl": "https://github.com/priyapatel-ai/med-rag",
+          "liveUrl": "https://medrag.hf.space",
+          "hasLiveLink": true,
+          "isLiveActive": true,
+          "hasReadme": true,
+          "hasTests": true,
+          "stars": 68
+        },
+        {
+          "id": "proj-p2",
+          "name": "VisionAudit",
+          "tagline": "Industrial defect detection system running sub-25ms inference",
+          "techStack": [
+            "Python",
+            "YOLOv8",
+            "OpenCV",
+            "Docker"
+          ],
+          "githubUrl": "https://github.com/priyapatel-ai/vision-audit",
+          "liveUrl": "https://visionaudit-demo.com",
+          "hasLiveLink": true,
+          "isLiveActive": true,
+          "hasReadme": true,
+          "hasTests": true,
+          "stars": 34
+        }
+      ],
+      "achievements": [
+        "Smart India Hackathon (SIH) 2024 Finalist",
+        "Solved 450+ LeetCode problems (Rating: 1810, Knight)",
+        "Co-author on 2 IEEE student symposium papers",
+        "Kaggle Competitions Expert"
+      ]
+    },
+    {
+      "id": "stu-103",
+      "name": "Rohan Verma",
+      "email": "rohan.verma23@msot.edu",
+      "phone": "+91 98450 11223",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech in Electronics and Communication",
+      "graduationYear": "2026",
+      "cgpa": "7.80",
+      "targetRole": "Backend Developer / DevOps",
+      "targetLocations": [
+        "Bengaluru",
+        "Chennai"
+      ],
+      "consentGiven": true,
+      "skills": {
+        "languages": [
+          "Java",
+          "Python",
+          "Bash",
+          "SQL"
+        ],
+        "frontend": [
+          "HTML",
+          "Bootstrap"
+        ],
+        "backend": [
+          "Spring Boot",
+          "Node.js",
+          "Express"
+        ],
+        "databases": [
+          "MySQL",
+          "Redis"
+        ],
+        "devops": [
+          "Docker",
+          "Kubernetes",
+          "Jenkins",
+          "Linux"
+        ],
+        "core": [
+          "Networking",
+          "Operating Systems",
+          "DSA",
+          "Distributed Systems"
+        ]
+      },
+      "resume": {
+        "fileName": "Rohan_Verma_Resume_v2.pdf",
+        "pageCount": 2,
+        "uploadedAt": "2026-10-16T15:20:00Z",
+        "rawText": "ROHAN VERMA\nPhone: +91 98450 11223 | Email: rohan.verma23@msot.edu\nGitHub: github.com/rohan-devops\n\nOBJECTIVE\nHardworking student looking for backend software engineering roles.\n\nEDUCATION\nMSOT College of Engineering - B.Tech ECE (7.8 CGPA)\nNational Public School - 12th Standard (91%)\nNational Public School - 10th Standard (93%)\n\nSKILLS\nJava, Spring Boot, MySQL, Docker, Linux, Git\n\nPROJECTS\n1. MicroCommerce - Spring Boot E-Commerce Microservices\nBuilt order, inventory and payment microservices communicating via REST and RabbitMQ.\nUsed MySQL and Eureka service discovery.\nGitHub: github.com/rohan-devops/microcommerce\n\n2. LogStream - Distributed Log Aggregator\nDeveloped pipeline to ingest logs from multiple servers into Elasticsearch.\nUsed Logstash and Docker compose.\nGitHub: github.com/rohan-devops/log-stream\n\n[Page 2]\nEXTRA-CURRICULAR\n- Member of College Robotics Club.\n- Participated in Intra-college sports meet.\n- Completed Coursera course on Cloud Computing."
+      },
+      "linkedIn": {
+        "profileUrl": "https://linkedin.com/in/rohan-verma-tech",
+        "headline": "Student at MSOT College of Engineering",
+        "about": "Aspiring engineer with interest in backend systems and clouds.",
+        "experienceMatch": false,
+        "skillsListed": [
+          "Java",
+          "Spring Boot",
+          "MySQL"
+        ],
+        "connectionsCount": 110,
+        "activityLevel": "Low"
+      },
+      "github": {
+        "username": "rohan-devops",
+        "profileUrl": "https://github.com/rohan-devops",
+        "reposCount": 6,
+        "pinnedRepos": [
+          "microcommerce"
+        ],
+        "commitCountLastYear": 85,
+        "hasReadme": false,
+        "hasCleanCommits": false,
+        "noSecretsFound": true
+      },
+      "leetCode": {
+        "username": "rohan_code",
+        "profileUrl": "https://leetcode.com/rohan_code",
+        "totalSolved": 115,
+        "easy": 80,
+        "medium": 32,
+        "hard": 3,
+        "contestRating": 1420,
+        "globalRank": "Top 45%"
+      },
+      "projects": [
+        {
+          "id": "proj-r1",
+          "name": "MicroCommerce",
+          "tagline": "Spring Boot microservices architecture with RabbitMQ",
+          "techStack": [
+            "Java",
+            "Spring Boot",
+            "RabbitMQ",
+            "MySQL"
+          ],
+          "githubUrl": "https://github.com/rohan-devops/microcommerce",
+          "liveUrl": "",
+          "hasLiveLink": false,
+          "isLiveActive": false,
+          "hasReadme": false,
+          "hasTests": false,
+          "stars": 4
+        },
+        {
+          "id": "proj-r2",
+          "name": "LogStream",
+          "tagline": "Log ingestion pipeline using Elasticsearch and Docker",
+          "techStack": [
+            "Python",
+            "Elasticsearch",
+            "Docker"
+          ],
+          "githubUrl": "https://github.com/rohan-devops/log-stream",
+          "liveUrl": "",
+          "hasLiveLink": false,
+          "isLiveActive": false,
+          "hasReadme": true,
+          "hasTests": false,
+          "stars": 2
+        }
+      ],
+      "achievements": [
+        "Member of College Robotics Club",
+        "Completed Coursera Cloud Fundamentals"
+      ]
+    },
+    {
+      "id": "stu-104",
+      "name": "Sneha Rao",
+      "email": "sneha.rao23@msot.edu",
+      "phone": "+91 98860 33445",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech in Information Science & Engineering",
+      "graduationYear": "2026",
+      "cgpa": "8.15",
+      "targetRole": "Frontend / UI-UX Engineer",
+      "targetLocations": [
+        "Bengaluru",
+        "Remote"
+      ],
+      "consentGiven": true,
+      "skills": {
+        "languages": [
+          "JavaScript",
+          "TypeScript",
+          "HTML5",
+          "CSS3"
+        ],
+        "frontend": [
+          "React",
+          "Vue.js",
+          "Tailwind CSS",
+          "Framer Motion",
+          "Next.js"
+        ],
+        "backend": [
+          "Node.js",
+          "Firebase",
+          "Supabase"
+        ],
+        "databases": [
+          "Firestore",
+          "PostgreSQL"
+        ],
+        "devops": [
+          "Git",
+          "Vercel",
+          "Netlify"
+        ],
+        "core": [
+          "UI Design",
+          "Responsive Layouts",
+          "Accessibility (WCAG)",
+          "Web Performance"
+        ]
+      },
+      "resume": {
+        "fileName": "Sneha_Rao_Frontend.pdf",
+        "pageCount": 1,
+        "uploadedAt": "2026-10-18T09:15:00Z",
+        "rawText": "SNEHA RAO\nBengaluru, India | sneha.rao23@msot.edu | +91 98860 33445\nGitHub: github.com/sneharao-ui | LinkedIn: linkedin.com/in/sneha-rao-dev\n\nEDUCATION\nMSOT College of Engineering\nB.Tech in Information Science | CGPA: 8.15 (2022 - 2026)\n\nSKILLS\nReact, TypeScript, Next.js, Tailwind CSS, Framer Motion, Figma, Supabase, Git\n\nPROJECTS\n1. DesignSync - Interactive Design Token Generator\n- Built web app allowing designers to export design tokens into CSS/SCSS and Tailwind config.\n- Implemented dynamic palette contrast checker complying with WCAG AAA standards.\n- Tech Stack: React, TypeScript, Tailwind CSS.\n- GitHub: github.com/sneharao-ui/design-sync | Live: https://designsync.vercel.app\n\n2. NoteFlow - Markdown Minimalist Workspace\n- Created keyboard-centric markdown notes app with local storage sync.\n- Tech Stack: Vue 3, Vite, Tailwind CSS.\n- GitHub: github.com/sneharao-ui/noteflow | Live: https://noteflow-demo.netlify.app\n\nACHIEVEMENTS\n- Design Lead, College Tech Fest (Invento 2025).\n- Mentored 40+ juniors in responsive web development."
+      },
+      "linkedIn": {
+        "profileUrl": "https://linkedin.com/in/sneha-rao-dev",
+        "headline": "Frontend Engineer | React, TypeScript, TailwindCSS",
+        "about": "Frontend craftsperson obsessed with micro-interactions, accessibility, and pixel perfection.",
+        "experienceMatch": true,
+        "skillsListed": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Figma"
+        ],
+        "connectionsCount": 240,
+        "activityLevel": "Moderate"
+      },
+      "github": {
+        "username": "sneharao-ui",
+        "profileUrl": "https://github.com/sneharao-ui",
+        "reposCount": 10,
+        "pinnedRepos": [
+          "design-sync",
+          "noteflow"
+        ],
+        "commitCountLastYear": 140,
+        "hasReadme": true,
+        "hasCleanCommits": true,
+        "noSecretsFound": true
+      },
+      "leetCode": {
+        "username": "sneha_ui",
+        "profileUrl": "https://leetcode.com/sneha_ui",
+        "totalSolved": 65,
+        "easy": 48,
+        "medium": 17,
+        "hard": 0,
+        "contestRating": 1350,
+        "globalRank": "Top 60%"
+      },
+      "projects": [
+        {
+          "id": "proj-s1",
+          "name": "DesignSync",
+          "tagline": "Design token manager with WCAG AAA contrast analyzer",
+          "techStack": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS"
+          ],
+          "githubUrl": "https://github.com/sneharao-ui/design-sync",
+          "liveUrl": "https://designsync.vercel.app",
+          "hasLiveLink": true,
+          "isLiveActive": true,
+          "hasReadme": true,
+          "hasTests": false,
+          "stars": 15
+        },
+        {
+          "id": "proj-s2",
+          "name": "NoteFlow",
+          "tagline": "Keyboard-driven markdown notes web application",
+          "techStack": [
+            "Vue 3",
+            "Vite",
+            "Tailwind CSS"
+          ],
+          "githubUrl": "https://github.com/sneharao-ui/noteflow",
+          "liveUrl": "https://noteflow-demo.netlify.app",
+          "hasLiveLink": true,
+          "isLiveActive": true,
+          "hasReadme": true,
+          "hasTests": false,
+          "stars": 8
+        }
+      ],
+      "achievements": [
+        "Design Lead for Invento 2025 Tech Fest",
+        "Mentored 40+ juniors in Frontend"
+      ]
+    },
+    {
+      "id": "stu-105",
+      "name": "Kunal Joshi",
+      "email": "kunal.joshi23@msot.edu",
+      "phone": "+91 99001 22334",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech in Mechanical Engineering",
+      "graduationYear": "2026",
+      "cgpa": "7.10",
+      "targetRole": "Junior Software Developer",
+      "targetLocations": [
+        "Bengaluru"
+      ],
+      "consentGiven": true,
+      "skills": {
+        "languages": [
+          "C",
+          "Python",
+          "HTML"
+        ],
+        "frontend": [
+          "HTML",
+          "CSS"
+        ],
+        "backend": [
+          "Python"
+        ],
+        "databases": [
+          "SQLite"
+        ],
+        "devops": [
+          "Git"
+        ],
+        "core": [
+          "Basic Programming"
+        ]
+      },
+      "resume": {
+        "fileName": "Kunal_Joshi_Resume_Generated.pdf",
+        "pageCount": 1,
+        "uploadedAt": "2026-10-19T14:15:19.351Z",
+        "rawText": "Kunal Joshi\nBengaluru | +91 99001 22334 | kunal.joshi23@msot.edu\nGitHub: https://github.com/kunal-j | LinkedIn:  | LeetCode: \n\nEDUCATION\nMSOT College of Engineering\nB.Tech in Mechanical Engineering | CGPA: 9.0 / 10.0 (2022 – 2026)\nCoursework: Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks\n\nTECHNICAL SKILLS\nLanguages: C, Python, HTML\nFrameworks & Libraries: HTML, CSS, Python\nDatabases & Cloud: SQLite, Git\n\nPROJECTS\n1. Web Store\n- Architected Simple website in Python using Python, HTML.\n- Integrated optimized data pipelines and verified sub-50ms operational latency.\n- Engineered production deployment with Docker and automated testing.\nTech Stack: Python, HTML | GitHub: https://github.com/kunal-j/webstore | Live: \n\n2. CampusCart\n\nTech Stack: Next.js, Express, PostgreSQL | GitHub:  | Live: \n\nEXPERIENCE\nSoftware Engineering Intern | TechNova Labs (June 2025 – August 2025)\n- Migrated legacy dashboard views from React Class components to React Hooks and TypeScript, decreasing bundle size by 24%.\n- Implemented client-side caching with React Query, decreasing redundant API roundtrips by 40%.\n\nACHIEVEMENTS\n- College cricket team member"
+      },
+      "linkedIn": {
+        "profileUrl": "",
+        "headline": "Mechanical Student",
+        "about": "",
+        "experienceMatch": false,
+        "skillsListed": [
+          "C",
+          "Python"
+        ],
+        "connectionsCount": 25,
+        "activityLevel": "None"
+      },
+      "github": {
+        "username": "kunal-j",
+        "profileUrl": "https://github.com/kunal-j",
+        "reposCount": 2,
+        "pinnedRepos": [],
+        "commitCountLastYear": 12,
+        "hasReadme": false,
+        "hasCleanCommits": false,
+        "noSecretsFound": true
+      },
+      "leetCode": {
+        "username": "",
+        "profileUrl": "",
+        "totalSolved": 0,
+        "easy": 0,
+        "medium": 0,
+        "hard": 0,
+        "contestRating": 0,
+        "globalRank": "Unranked"
+      },
+      "projects": [
+        {
+          "id": "proj-k1",
+          "name": "Web Store",
+          "tagline": "Simple website in Python",
+          "techStack": [
+            "Python",
+            "HTML"
+          ],
+          "githubUrl": "https://github.com/kunal-j/webstore",
+          "liveUrl": "",
+          "hasLiveLink": false,
+          "isLiveActive": false,
+          "hasReadme": false,
+          "hasTests": false,
+          "stars": 0
+        }
+      ],
+      "achievements": [
+        "College cricket team member"
+      ],
+      "resumeData": {
+        "personal": {
+          "fullName": "Kunal Joshi",
+          "email": "kunal.joshi23@msot.edu",
+          "phone": "+91 99001 22334",
+          "location": "Bengaluru",
+          "github": "https://github.com/kunal-j",
+          "linkedin": "",
+          "leetcode": ""
+        },
+        "summary": "Dedicated B.Tech in Mechanical Engineering undergraduate with hands-on experience building scalable applications. Proven track record in competitive programming (solved 300+ problems) and full-stack development. Seeking Junior Software Developer opportunities.",
+        "education": [
+          {
+            "institution": "MSOT College of Engineering",
+            "degree": "B.Tech in Mechanical Engineering",
+            "duration": "2022 – 2026",
+            "score": "CGPA: 9.0 / 10.0",
+            "courses": "Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks"
+          }
+        ],
+        "skills": {
+          "languages": "C, Python, HTML",
+          "frameworks": "HTML, CSS, Python",
+          "databasesAndCloud": "SQLite, Git"
+        },
+        "projects": [
+          {
+            "name": "Web Store",
+            "techStack": "Python, HTML",
+            "liveUrl": "",
+            "githubUrl": "https://github.com/kunal-j/webstore",
+            "bullets": [
+              "Architected Simple website in Python using Python, HTML.",
+              "Integrated optimized data pipelines and verified sub-50ms operational latency.",
+              "Engineered production deployment with Docker and automated testing."
+            ]
+          },
+          {
+            "name": "CampusCart",
+            "techStack": "Next.js, Express, PostgreSQL",
+            "liveUrl": "",
+            "githubUrl": "",
+            "bullets": []
+          }
+        ],
+        "experience": [
+          {
+            "company": "TechNova Labs",
+            "role": "Software Engineering Intern",
+            "duration": "June 2025 – August 2025",
+            "bullets": [
+              "Migrated legacy dashboard views from React Class components to React Hooks and TypeScript, decreasing bundle size by 24%.",
+              "Implemented client-side caching with React Query, decreasing redundant API roundtrips by 40%."
+            ]
+          }
+        ],
+        "achievements": [
+          "College cricket team member"
+        ]
+      }
+    },
+    {
+      "id": "stu-rnd-936727",
+      "name": "Rishi Deshmukh",
+      "email": "rishi.deshmukh30@msot.edu",
+      "phone": "+91 9658083188",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "graduationYear": "2026",
+      "cgpa": "8.21",
+      "targetRole": "Frontend & Mobile UI Craftsperson",
+      "targetLocations": [
+        "Bengaluru",
+        "Hyderabad",
+        "Remote"
+      ],
+      "consentGiven": true,
+      "skills": {
+        "languages": [
+          "Java",
+          "Bash",
+          "Python"
+        ],
+        "frontend": [
+          "Spring Boot",
+          "Kubernetes"
+        ],
+        "backend": [
+          "Kubernetes",
+          "Express"
+        ],
+        "databases": [
+          "MySQL",
+          "Elasticsearch"
+        ],
+        "devops": [
+          "Elasticsearch",
+          "Docker"
+        ],
+        "core": [
+          "Data Structures & Algorithms",
+          "DBMS",
+          "Operating Systems"
+        ]
+      },
+      "resume": {
+        "fileName": "Rishi_Deshmukh_Generated_Resume.pdf",
+        "pageCount": 1,
+        "uploadedAt": "2026-10-19T16:05:36.737Z",
+        "rawText": "RISHI DESHMUKH\nBengaluru, India | Frontend & Mobile UI Craftsperson\nEDUCATION\nMSOT College of Engineering\nB.Tech CSE (2022-2026)\n\nSKILLS\nJava, Bash, Python, Spring Boot, Kubernetes, Express, MySQL, Elasticsearch, Docker\n\nPROJECTS\n1. Project Nexus - High Throughput Engine\n- Engineered distributed service handling 5,000+ operations/sec with Spring Boot.\n- Optimized MySQL queries, decreasing latency by 35%.\n\nACHIEVEMENTS\n- Solved 280+ problems on LeetCode\n- Winner of intra-college hackathon"
+      },
+      "linkedIn": {
+        "profileUrl": "https://linkedin.com/in/rishi-deshmukh",
+        "headline": "Frontend & Mobile UI Craftsperson | CS Undergrad @ MSOT",
+        "about": "Software developer interested in building reliable distributed systems.",
+        "experienceMatch": true,
+        "skillsListed": [
+          "Java",
+          "Bash",
+          "Python",
+          "Spring Boot",
+          "Kubernetes",
+          "Express"
+        ],
+        "connectionsCount": 146,
+        "activityLevel": "Moderate"
+      },
+      "github": {
+        "username": "rishideshmukh-dev",
+        "profileUrl": "https://github.com/rishideshmukh-dev",
+        "reposCount": 17,
+        "pinnedRepos": [
+          "nexus-engine",
+          "distributed-cache"
+        ],
+        "commitCountLastYear": 377,
+        "hasReadme": true,
+        "hasCleanCommits": true,
+        "noSecretsFound": true
+      },
+      "leetCode": {
+        "username": "rishideshmukh_codes",
+        "profileUrl": "https://leetcode.com/rishideshmukh_codes",
+        "totalSolved": 272,
+        "easy": 80,
+        "medium": 120,
+        "hard": 25,
+        "contestRating": 1749,
+        "globalRank": "Top 15%"
+      },
+      "projects": [
+        {
+          "id": "proj-1792425936737",
+          "name": "Nexus Engine",
+          "tagline": "High-throughput streaming architecture with real-time analytics",
+          "techStack": [
+            "Spring Boot",
+            "Kubernetes",
+            "Express"
+          ],
+          "githubUrl": "https://github.com/rishideshmukh-dev/nexus-engine",
+          "liveUrl": "https://nexus.demo.app",
+          "hasLiveLink": true,
+          "isLiveActive": true,
+          "hasReadme": true,
+          "hasTests": true,
+          "stars": 34
+        }
+      ],
+      "achievements": [
+        "Solved 250+ algorithmic problems on LeetCode",
+        "HackMSOT 2025 Team Finalist"
+      ]
+    },
+    {
+      "id": "stu-1792425936877",
+      "name": "Rohan Test Candidate",
+      "email": "rohan.test@msot.edu",
+      "phone": "+91 9762121701",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech CSE",
+      "graduationYear": "2026",
+      "cgpa": "8.18",
+      "targetRole": "Junior Software Developer",
+      "targetLocations": [
+        "Bengaluru",
+        "Remote"
+      ],
+      "consentGiven": true,
+      "skills": {
+        "languages": [
+          "JavaScript",
+          "TypeScript",
+          "Python",
+          "C++"
+        ],
+        "frontend": [
+          "React.js",
+          "Next.js",
+          "TailwindCSS"
+        ],
+        "backend": [
+          "Node.js",
+          "Express.js",
+          "REST APIs"
+        ],
+        "databases": [
+          "PostgreSQL",
+          "MongoDB",
+          "Redis"
+        ],
+        "devops": [
+          "Docker",
+          "Git",
+          "AWS"
+        ],
+        "core": [
+          "Data Structures & Algorithms",
+          "DBMS",
+          "Operating Systems"
+        ]
+      },
+      "resume": {
+        "fileName": "Rohan_Test_Candidate_Resume.pdf",
+        "pageCount": 1,
+        "uploadedAt": "2026-10-19T16:05:36.877Z",
+        "rawText": "ROHAN TEST CANDIDATE\nMSOT College of Engineering | rohan.test@msot.edu\nGitHub: github.com/rohantestcandidate-dev | LinkedIn: linkedin.com/in/rohan-test-candidate\n\nEDUCATION\nMSOT College of Engineering\nB.Tech CSE (2022 - 2026)\n\nTECHNICAL SKILLS\nLanguages: JavaScript, TypeScript, Python, C++, SQL\nFrameworks: React.js, Next.js, Node.js, Express\nDatabases & Cloud: PostgreSQL, Redis, Docker, Git\n\nPROJECTS\n1. Real-time Distributed App\n- Architected full-stack web application with WebSockets and Redis.\n- Optimized PostgreSQL queries achieving sub-50ms operational latency.\n\nACHIEVEMENTS\n- Participated in Smart India Hackathon (SIH 2025)\n- Solved 180+ problems on LeetCode"
+      },
+      "linkedIn": {
+        "profileUrl": "https://linkedin.com/in/rohan-test-candidate",
+        "headline": "Junior Software Developer | B.Tech @ MSOT College of Engineering",
+        "about": "Passionate engineer excited to build high-scale web systems and solve complex problems.",
+        "experienceMatch": true,
+        "skillsListed": [
+          "React.js",
+          "Node.js",
+          "TypeScript",
+          "PostgreSQL",
+          "Docker"
+        ],
+        "connectionsCount": 180,
+        "activityLevel": "Moderate"
+      },
+      "github": {
+        "username": "rohantestcandidate-dev",
+        "profileUrl": "https://github.com/rohantestcandidate-dev",
+        "reposCount": 10,
+        "pinnedRepos": [
+          "distributed-app",
+          "portfolio"
+        ],
+        "commitCountLastYear": 240,
+        "hasReadme": true,
+        "hasCleanCommits": true,
+        "noSecretsFound": true
+      },
+      "leetCode": {
+        "username": "rohantestcandidate_codes",
+        "profileUrl": "https://leetcode.com/rohantestcandidate_codes",
+        "totalSolved": 190,
+        "easy": 70,
+        "medium": 110,
+        "hard": 15,
+        "contestRating": 1610,
+        "globalRank": "Top 18%"
+      },
+      "projects": [
+        {
+          "id": "proj-1792425936878",
+          "name": "Distributed App",
+          "tagline": "High-scale web platform with WebSocket replication",
+          "techStack": [
+            "React",
+            "Node.js",
+            "PostgreSQL",
+            "Docker"
+          ],
+          "githubUrl": "https://github.com/rohantestcandidate-dev/distributed-app",
+          "liveUrl": "https://demo-app.vercel.app",
+          "hasLiveLink": true,
+          "isLiveActive": true,
+          "hasReadme": true,
+          "hasTests": true,
+          "stars": 18
+        }
+      ],
+      "achievements": [
+        "Finalist in MSOT College Hackathon 2025",
+        "Solved 180+ problems on LeetCode"
+      ]
+    },
+    {
+      "id": "stu-rnd-095444",
+      "name": "Diya Nair",
+      "email": "diya.nair81@msot.edu",
+      "phone": "+91 9902400654",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "graduationYear": "2026",
+      "cgpa": "8.93",
+      "targetRole": "Frontend & Mobile UI Craftsperson",
+      "targetLocations": [
+        "Bengaluru",
+        "Hyderabad",
+        "Remote"
+      ],
+      "consentGiven": true,
+      "skills": {
+        "languages": [
+          "TypeScript",
+          "Python",
+          "Go"
+        ],
+        "frontend": [
+          "Next.js",
+          "FastAPI"
+        ],
+        "backend": [
+          "FastAPI",
+          "Node.js"
+        ],
+        "databases": [
+          "PostgreSQL",
+          "Redis"
+        ],
+        "devops": [
+          "Redis",
+          "Docker"
+        ],
+        "core": [
+          "Data Structures & Algorithms",
+          "DBMS",
+          "Operating Systems"
+        ]
+      },
+      "resume": {
+        "fileName": "Diya_Nair_Generated_Resume.pdf",
+        "pageCount": 1,
+        "uploadedAt": "2026-10-19T16:08:15.445Z",
+        "rawText": "DIYA NAIR\nBengaluru, India | Frontend & Mobile UI Craftsperson\nEDUCATION\nMSOT College of Engineering\nB.Tech CSE (2022-2026)\n\nSKILLS\nTypeScript, Python, Go, Next.js, FastAPI, Node.js, PostgreSQL, Redis, Docker\n\nPROJECTS\n1. Project Nexus - High Throughput Engine\n- Engineered distributed service handling 5,000+ operations/sec with Next.js.\n- Optimized PostgreSQL queries, decreasing latency by 35%.\n\nACHIEVEMENTS\n- Solved 280+ problems on LeetCode\n- Winner of intra-college hackathon"
+      },
+      "linkedIn": {
+        "profileUrl": "https://linkedin.com/in/diya-nair",
+        "headline": "Frontend & Mobile UI Craftsperson | CS Undergrad @ MSOT",
+        "about": "Software developer interested in building reliable distributed systems.",
+        "experienceMatch": true,
+        "skillsListed": [
+          "TypeScript",
+          "Python",
+          "Go",
+          "Next.js",
+          "FastAPI",
+          "Node.js"
+        ],
+        "connectionsCount": 251,
+        "activityLevel": "Moderate"
+      },
+      "github": {
+        "username": "diyanair-dev",
+        "profileUrl": "https://github.com/diyanair-dev",
+        "reposCount": 16,
+        "pinnedRepos": [
+          "nexus-engine",
+          "distributed-cache"
+        ],
+        "commitCountLastYear": 225,
+        "hasReadme": true,
+        "hasCleanCommits": true,
+        "noSecretsFound": true
+      },
+      "leetCode": {
+        "username": "diyanair_codes",
+        "profileUrl": "https://leetcode.com/diyanair_codes",
+        "totalSolved": 223,
+        "easy": 80,
+        "medium": 120,
+        "hard": 25,
+        "contestRating": 1634,
+        "globalRank": "Top 15%"
+      },
+      "projects": [
+        {
+          "id": "proj-1792426095445",
+          "name": "Nexus Engine",
+          "tagline": "High-throughput streaming architecture with real-time analytics",
+          "techStack": [
+            "Next.js",
+            "FastAPI",
+            "Node.js"
+          ],
+          "githubUrl": "https://github.com/diyanair-dev/nexus-engine",
+          "liveUrl": "https://nexus.demo.app",
+          "hasLiveLink": true,
+          "isLiveActive": true,
+          "hasReadme": true,
+          "hasTests": true,
+          "stars": 28
+        }
+      ],
+      "achievements": [
+        "Solved 250+ algorithmic problems on LeetCode",
+        "HackMSOT 2025 Team Finalist"
+      ]
+    },
+    {
+      "id": "stu-1792426852588",
+      "name": "Liam Payne",
+      "email": "lian5@gmail.com",
+      "phone": "+91 9708806567",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech CSE",
+      "graduationYear": "2026",
+      "cgpa": "9.08",
+      "targetRole": "Junior Software Developer",
+      "targetLocations": [
+        "Bengaluru",
+        "Remote"
+      ],
+      "consentGiven": true,
+      "skills": {
+        "languages": [
+          "JavaScript",
+          "TypeScript",
+          "Python",
+          "C++"
+        ],
+        "frontend": [
+          "React.js",
+          "Next.js",
+          "TailwindCSS"
+        ],
+        "backend": [
+          "Node.js",
+          "Express.js",
+          "REST APIs"
+        ],
+        "databases": [
+          "PostgreSQL",
+          "MongoDB",
+          "Redis"
+        ],
+        "devops": [
+          "Docker",
+          "Git",
+          "AWS"
+        ],
+        "core": [
+          "Data Structures & Algorithms",
+          "DBMS",
+          "Operating Systems"
+        ]
+      },
+      "resume": {
+        "fileName": "Liam_Payne_Resume.pdf",
+        "pageCount": 1,
+        "uploadedAt": "2026-10-19T16:20:52.588Z",
+        "rawText": "LIAM PAYNE\nMSOT College of Engineering | lian5@gmail.com\nGitHub: github.com/liampayne-dev | LinkedIn: linkedin.com/in/liam-payne\n\nEDUCATION\nMSOT College of Engineering\nB.Tech CSE (2022 - 2026)\n\nTECHNICAL SKILLS\nLanguages: JavaScript, TypeScript, Python, C++, SQL\nFrameworks: React.js, Next.js, Node.js, Express\nDatabases & Cloud: PostgreSQL, Redis, Docker, Git\n\nPROJECTS\n1. Real-time Distributed App\n- Architected full-stack web application with WebSockets and Redis.\n- Optimized PostgreSQL queries achieving sub-50ms operational latency.\n\nACHIEVEMENTS\n- Participated in Smart India Hackathon (SIH 2025)\n- Solved 180+ problems on LeetCode"
+      },
+      "linkedIn": {
+        "profileUrl": "https://linkedin.com/in/liam-payne",
+        "headline": "Junior Software Developer | B.Tech @ MSOT College of Engineering",
+        "about": "Passionate engineer excited to build high-scale web systems and solve complex problems.",
+        "experienceMatch": true,
+        "skillsListed": [
+          "React.js",
+          "Node.js",
+          "TypeScript",
+          "PostgreSQL",
+          "Docker"
+        ],
+        "connectionsCount": 180,
+        "activityLevel": "Moderate"
+      },
+      "github": {
+        "username": "liampayne-dev",
+        "profileUrl": "https://github.com/liampayne-dev",
+        "reposCount": 10,
+        "pinnedRepos": [
+          "distributed-app",
+          "portfolio"
+        ],
+        "commitCountLastYear": 240,
+        "hasReadme": true,
+        "hasCleanCommits": true,
+        "noSecretsFound": true
+      },
+      "leetCode": {
+        "username": "liampayne_codes",
+        "profileUrl": "https://leetcode.com/liampayne_codes",
+        "totalSolved": 280,
+        "easy": 70,
+        "medium": 110,
+        "hard": 15,
+        "contestRating": 1610,
+        "globalRank": "Top 18%"
+      },
+      "projects": [
+        {
+          "id": "proj-1792426852589",
+          "name": "Distributed App",
+          "tagline": "High-scale web platform with WebSocket replication",
+          "techStack": [
+            "React",
+            "Node.js",
+            "PostgreSQL",
+            "Docker"
+          ],
+          "githubUrl": "https://github.com/liampayne-dev/distributed-app",
+          "liveUrl": "https://demo-app.vercel.app",
+          "hasLiveLink": true,
+          "isLiveActive": true,
+          "hasReadme": true,
+          "hasTests": true,
+          "stars": 18
+        }
+      ],
+      "achievements": [
+        "Finalist in MSOT College Hackathon 2025",
+        "Solved 180+ problems on LeetCode"
+      ],
+      "interests": [
+        "AI, LLMs & Generative Models"
+      ]
+    },
+    {
+      "id": "stu-rnd-752115",
+      "name": "Kavya Chopra",
+      "email": "kavya.chopra85@msot.edu",
+      "phone": "+91 9897481691",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "graduationYear": "2026",
+      "cgpa": "9.15",
+      "targetRole": "AI / Machine Learning Engineer",
+      "targetLocations": [
+        "Bengaluru",
+        "Hyderabad",
+        "Remote"
+      ],
+      "consentGiven": true,
+      "skills": {
+        "languages": [
+          "TypeScript",
+          "Python",
+          "Go"
+        ],
+        "frontend": [
+          "Next.js",
+          "FastAPI"
+        ],
+        "backend": [
+          "FastAPI",
+          "Node.js"
+        ],
+        "databases": [
+          "PostgreSQL",
+          "Redis"
+        ],
+        "devops": [
+          "Redis",
+          "Docker"
+        ],
+        "core": [
+          "Data Structures & Algorithms",
+          "DBMS",
+          "Operating Systems"
+        ]
+      },
+      "resume": {
+        "fileName": "Kavya_Chopra_Generated_Resume.pdf",
+        "pageCount": 1,
+        "uploadedAt": "2026-10-19T18:15:52.123Z",
+        "rawText": "KAVYA CHOPRA\nBengaluru, India | AI / Machine Learning Engineer\nEDUCATION\nMSOT College of Engineering\nB.Tech CSE (2022-2026)\n\nSKILLS\nTypeScript, Python, Go, Next.js, FastAPI, Node.js, PostgreSQL, Redis, Docker\n\nPROJECTS\n1. Project Nexus - High Throughput Engine\n- Engineered distributed service handling 5,000+ operations/sec with Next.js.\n- Optimized PostgreSQL queries, decreasing latency by 35%.\n\nACHIEVEMENTS\n- Solved 280+ problems on LeetCode\n- Winner of intra-college hackathon"
+      },
+      "linkedIn": {
+        "profileUrl": "https://linkedin.com/in/kavya-chopra",
+        "headline": "AI / Machine Learning Engineer | CS Undergrad @ MSOT",
+        "about": "Software developer interested in building reliable distributed systems.",
+        "experienceMatch": true,
+        "skillsListed": [
+          "TypeScript",
+          "Python",
+          "Go",
+          "Next.js",
+          "FastAPI",
+          "Node.js"
+        ],
+        "connectionsCount": 178,
+        "activityLevel": "Moderate"
+      },
+      "github": {
+        "username": "kavyachopra-dev",
+        "profileUrl": "https://github.com/kavyachopra-dev",
+        "reposCount": 11,
+        "pinnedRepos": [
+          "nexus-engine",
+          "distributed-cache"
+        ],
+        "commitCountLastYear": 374,
+        "hasReadme": true,
+        "hasCleanCommits": true,
+        "noSecretsFound": true
+      },
+      "leetCode": {
+        "username": "kavyachopra_codes",
+        "profileUrl": "https://leetcode.com/kavyachopra_codes",
+        "totalSolved": 334,
+        "easy": 80,
+        "medium": 120,
+        "hard": 25,
+        "contestRating": 1629,
+        "globalRank": "Top 15%"
+      },
+      "projects": [
+        {
+          "id": "proj-1792433752123",
+          "name": "Nexus Engine",
+          "tagline": "High-throughput streaming architecture with real-time analytics",
+          "techStack": [
+            "Next.js",
+            "FastAPI",
+            "Node.js"
+          ],
+          "githubUrl": "https://github.com/kavyachopra-dev/nexus-engine",
+          "liveUrl": "https://nexus.demo.app",
+          "hasLiveLink": true,
+          "isLiveActive": true,
+          "hasReadme": true,
+          "hasTests": true,
+          "stars": 41
+        }
+      ],
+      "achievements": [
+        "Solved 250+ algorithmic problems on LeetCode",
+        "HackMSOT 2025 Team Finalist"
+      ]
+    },
+    {
+      "id": "stu-rnd-753209",
+      "name": "Ishaan Kulkarni",
+      "email": "ishaan.kulkarni50@msot.edu",
+      "phone": "+91 9949348963",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "graduationYear": "2026",
+      "cgpa": "8.55",
+      "targetRole": "Frontend & Mobile UI Craftsperson",
+      "targetLocations": [
+        "Bengaluru",
+        "Hyderabad",
+        "Remote"
+      ],
+      "consentGiven": true,
+      "skills": {
+        "languages": [
+          "Python",
+          "C++",
+          "SQL"
+        ],
+        "frontend": [
+          "PyTorch",
+          "Transformers"
+        ],
+        "backend": [
+          "Transformers",
+          "FastAPI"
+        ],
+        "databases": [
+          "ChromaDB",
+          "PostgreSQL"
+        ],
+        "devops": [
+          "PostgreSQL",
+          "AWS"
+        ],
+        "core": [
+          "Data Structures & Algorithms",
+          "DBMS",
+          "Operating Systems"
+        ]
+      },
+      "resume": {
+        "fileName": "Ishaan_Kulkarni_Generated_Resume.pdf",
+        "pageCount": 1,
+        "uploadedAt": "2026-10-19T18:15:53.222Z",
+        "rawText": "ISHAAN KULKARNI\nBengaluru, India | Frontend & Mobile UI Craftsperson\nEDUCATION\nMSOT College of Engineering\nB.Tech CSE (2022-2026)\n\nSKILLS\nPython, C++, SQL, PyTorch, Transformers, FastAPI, ChromaDB, PostgreSQL, AWS\n\nPROJECTS\n1. Project Nexus - High Throughput Engine\n- Engineered distributed service handling 5,000+ operations/sec with PyTorch.\n- Optimized ChromaDB queries, decreasing latency by 35%.\n\nACHIEVEMENTS\n- Solved 280+ problems on LeetCode\n- Winner of intra-college hackathon"
+      },
+      "linkedIn": {
+        "profileUrl": "https://linkedin.com/in/ishaan-kulkarni",
+        "headline": "Frontend & Mobile UI Craftsperson | CS Undergrad @ MSOT",
+        "about": "Software developer interested in building reliable distributed systems.",
+        "experienceMatch": true,
+        "skillsListed": [
+          "Python",
+          "C++",
+          "SQL",
+          "PyTorch",
+          "Transformers",
+          "FastAPI"
+        ],
+        "connectionsCount": 389,
+        "activityLevel": "Moderate"
+      },
+      "github": {
+        "username": "ishaankulkarni-dev",
+        "profileUrl": "https://github.com/ishaankulkarni-dev",
+        "reposCount": 17,
+        "pinnedRepos": [
+          "nexus-engine",
+          "distributed-cache"
+        ],
+        "commitCountLastYear": 375,
+        "hasReadme": true,
+        "hasCleanCommits": true,
+        "noSecretsFound": true
+      },
+      "leetCode": {
+        "username": "ishaankulkarni_codes",
+        "profileUrl": "https://leetcode.com/ishaankulkarni_codes",
+        "totalSolved": 382,
+        "easy": 80,
+        "medium": 120,
+        "hard": 25,
+        "contestRating": 1705,
+        "globalRank": "Top 15%"
+      },
+      "projects": [
+        {
+          "id": "proj-1792433753223",
+          "name": "Nexus Engine",
+          "tagline": "High-throughput streaming architecture with real-time analytics",
+          "techStack": [
+            "PyTorch",
+            "Transformers",
+            "FastAPI"
+          ],
+          "githubUrl": "https://github.com/ishaankulkarni-dev/nexus-engine",
+          "liveUrl": "https://nexus.demo.app",
+          "hasLiveLink": true,
+          "isLiveActive": true,
+          "hasReadme": true,
+          "hasTests": true,
+          "stars": 21
+        }
+      ],
+      "achievements": [
+        "Solved 250+ algorithmic problems on LeetCode",
+        "HackMSOT 2025 Team Finalist"
+      ]
+    }
+  ],
+  "reviews": {
+    "stu-101": {
+      "reviewedAt": "2026-10-19T12:47:02.452Z",
+      "studentId": "stu-101",
+      "studentName": "Arjun Sharma",
+      "resume": {
+        "score": 100,
+        "checks": [
+          {
+            "id": "res-page-count",
+            "name": "Exactly One Page Format",
+            "passed": true,
+            "finding": "Resume is strictly 1 page. Excellent for campus placements and ATS screening.",
+            "fix": null
+          },
+          {
+            "id": "res-layout",
+            "name": "Standard ATS Section Hierarchy",
+            "passed": true,
+            "finding": "Clear standard section headings identified (Education, Skills, Projects, Experience).",
+            "fix": null
+          },
+          {
+            "id": "res-grammar",
+            "name": "Action Verbs & Confident Phrasing",
+            "passed": true,
+            "finding": "Strong active voice used. No passive filler phrases detected.",
+            "fix": null
+          },
+          {
+            "id": "res-metrics",
+            "name": "Quantifiable Impact & Metrics",
+            "passed": true,
+            "finding": "Bullet points include quantifiable figures (e.g., latency, percentage improvements, user counts).",
+            "fix": null
+          },
+          {
+            "id": "res-projects-detail",
+            "name": "Every Project Has Tech Stack & Links",
+            "passed": true,
+            "finding": "All 3 featured projects list detailed tech stacks and repository links.",
+            "fix": null
+          },
+          {
+            "id": "res-links-header",
+            "name": "GitHub & LeetCode Links in Header",
+            "passed": true,
+            "finding": "Both GitHub and LeetCode profile links are prominently featured in the contact header.",
+            "fix": null
+          },
+          {
+            "id": "res-achievements",
+            "name": "Co-curricular & Hackathon Credentials",
+            "passed": true,
+            "finding": "Found 4 verified co-curricular achievements, competitive programming rankings, or hackathon wins.",
+            "fix": null
+          },
+          {
+            "id": "res-ats",
+            "name": "ATS Parsing Compatibility",
+            "passed": true,
+            "finding": "Text is directly selectable, no multi-column parsing traps or text-in-image elements detected.",
+            "fix": null
+          }
+        ]
+      },
+      "linkedIn": {
+        "score": 100,
+        "checks": [
+          {
+            "id": "li-headline-about",
+            "name": "Tailored Headline & About Section",
+            "passed": true,
+            "finding": "Headline clearly specifies target role, technologies, and academic background.",
+            "fix": null
+          },
+          {
+            "id": "li-exp-match",
+            "name": "Experience & Projects Match Resume",
+            "passed": true,
+            "finding": "LinkedIn experience entries align seamlessly with resume timelines and roles.",
+            "fix": null
+          },
+          {
+            "id": "li-skills",
+            "name": "Role-Specific Skills Endorsements",
+            "passed": true,
+            "finding": "7 target technical skills listed on profile.",
+            "fix": null
+          }
+        ],
+        "rewrites": {
+          "headline": "Full Stack Engineer / SDE-1 | JavaScript, TypeScript, Python | Node.js & Express.js | B.Tech @ MSOT 2026",
+          "about": "I am a Computer Science undergraduate at MSOT College of Engineering with a passion for architecting high-performance web systems and scalable APIs. I have built production-ready applications like CollabCode and actively solve complex algorithmic problems (solved 342+ on LeetCode).\n\nKey Expertise: JavaScript, TypeScript, Python, C++, SQL | Node.js, Express.js, FastAPI, RESTful APIs, WebSockets | Docker, Git, GitHub Actions, AWS (S3, EC2), Linux.\n\nOpen to Full Stack & Backend SDE-1 internships and campus opportunities!"
+        }
+      },
+      "github": {
+        "score": 100,
+        "checks": [
+          {
+            "id": "gh-profile",
+            "name": "Pinned Repos & Profile README",
+            "passed": true,
+            "finding": "Profile features 3 pinned showcase repositories and a custom profile README.",
+            "fix": null
+          },
+          {
+            "id": "gh-activity",
+            "name": "Regular Commit Frequency",
+            "passed": true,
+            "finding": "Active GitHub streak with 420 commits over the past 12 months.",
+            "fix": null
+          },
+          {
+            "id": "gh-readmes",
+            "name": "Project Documentation & Setup Guides",
+            "passed": true,
+            "finding": "Repositories contain clear setup instructions, prerequisite lists, and architectural documentation.",
+            "fix": null
+          },
+          {
+            "id": "gh-security",
+            "name": "Commit Hygiene & Zero Secrets Leakage",
+            "passed": true,
+            "finding": "Clean commit messages. No exposed API keys, .env secrets, or tokens detected in public repos.",
+            "fix": null
+          }
+        ]
+      },
+      "projects": {
+        "score": 87,
+        "checks": [
+          {
+            "id": "proj-live-links",
+            "name": "Working Deployed Live Links",
+            "passed": true,
+            "finding": "2 of 3 projects have active, verified live web deployments.",
+            "fix": null
+          },
+          {
+            "id": "proj-engineering",
+            "name": "Engineering Rigor & Automated Tests",
+            "passed": true,
+            "finding": "Documented repositories with unit/integration test suites verified in 1 project(s).",
+            "fix": null
+          }
+        ]
+      },
+      "readiness": {
+        "totalScore": 94,
+        "readinessLevel": "Placement ready",
+        "badgeColor": "#10b981",
+        "breakdown": {
+          "resume": {
+            "rawScore": 100,
+            "weight": 0.25,
+            "weightedScore": 25,
+            "maxPoints": 25,
+            "checks": [
+              {
+                "id": "res-page-count",
+                "name": "Exactly One Page Format",
+                "passed": true,
+                "finding": "Resume is strictly 1 page. Excellent for campus placements and ATS screening.",
+                "fix": null
+              },
+              {
+                "id": "res-layout",
+                "name": "Standard ATS Section Hierarchy",
+                "passed": true,
+                "finding": "Clear standard section headings identified (Education, Skills, Projects, Experience).",
+                "fix": null
+              },
+              {
+                "id": "res-grammar",
+                "name": "Action Verbs & Confident Phrasing",
+                "passed": true,
+                "finding": "Strong active voice used. No passive filler phrases detected.",
+                "fix": null
+              },
+              {
+                "id": "res-metrics",
+                "name": "Quantifiable Impact & Metrics",
+                "passed": true,
+                "finding": "Bullet points include quantifiable figures (e.g., latency, percentage improvements, user counts).",
+                "fix": null
+              },
+              {
+                "id": "res-projects-detail",
+                "name": "Every Project Has Tech Stack & Links",
+                "passed": true,
+                "finding": "All 3 featured projects list detailed tech stacks and repository links.",
+                "fix": null
+              },
+              {
+                "id": "res-links-header",
+                "name": "GitHub & LeetCode Links in Header",
+                "passed": true,
+                "finding": "Both GitHub and LeetCode profile links are prominently featured in the contact header.",
+                "fix": null
+              },
+              {
+                "id": "res-achievements",
+                "name": "Co-curricular & Hackathon Credentials",
+                "passed": true,
+                "finding": "Found 4 verified co-curricular achievements, competitive programming rankings, or hackathon wins.",
+                "fix": null
+              },
+              {
+                "id": "res-ats",
+                "name": "ATS Parsing Compatibility",
+                "passed": true,
+                "finding": "Text is directly selectable, no multi-column parsing traps or text-in-image elements detected.",
+                "fix": null
+              }
+            ]
+          },
+          "projects": {
+            "rawScore": 87,
+            "weight": 0.25,
+            "weightedScore": 21.8,
+            "maxPoints": 25,
+            "checks": [
+              {
+                "id": "proj-live-links",
+                "name": "Working Deployed Live Links",
+                "passed": true,
+                "finding": "2 of 3 projects have active, verified live web deployments.",
+                "fix": null
+              },
+              {
+                "id": "proj-engineering",
+                "name": "Engineering Rigor & Automated Tests",
+                "passed": true,
+                "finding": "Documented repositories with unit/integration test suites verified in 1 project(s).",
+                "fix": null
+              }
+            ]
+          },
+          "mockInterview": {
+            "rawScore": 84,
+            "weight": 0.2,
+            "weightedScore": 16.8,
+            "maxPoints": 20,
+            "completedSessions": 1,
+            "latestId": "int-sample-1"
+          },
+          "github": {
+            "rawScore": 100,
+            "weight": 0.1,
+            "weightedScore": 10,
+            "maxPoints": 10,
+            "checks": [
+              {
+                "id": "gh-profile",
+                "name": "Pinned Repos & Profile README",
+                "passed": true,
+                "finding": "Profile features 3 pinned showcase repositories and a custom profile README.",
+                "fix": null
+              },
+              {
+                "id": "gh-activity",
+                "name": "Regular Commit Frequency",
+                "passed": true,
+                "finding": "Active GitHub streak with 420 commits over the past 12 months.",
+                "fix": null
+              },
+              {
+                "id": "gh-readmes",
+                "name": "Project Documentation & Setup Guides",
+                "passed": true,
+                "finding": "Repositories contain clear setup instructions, prerequisite lists, and architectural documentation.",
+                "fix": null
+              },
+              {
+                "id": "gh-security",
+                "name": "Commit Hygiene & Zero Secrets Leakage",
+                "passed": true,
+                "finding": "Clean commit messages. No exposed API keys, .env secrets, or tokens detected in public repos.",
+                "fix": null
+              }
+            ]
+          },
+          "codingPractice": {
+            "rawScore": 100,
+            "weight": 0.1,
+            "weightedScore": 10,
+            "maxPoints": 10,
+            "checks": [
+              {
+                "id": "lc-volume",
+                "name": "Coding Platform Problem Solving",
+                "passed": true,
+                "finding": "Solved 342 problems (120 Easy, 184 Medium, 38 Hard). Rating: 1685.",
+                "fix": null
+              }
+            ]
+          },
+          "linkedIn": {
+            "rawScore": 100,
+            "weight": 0.05,
+            "weightedScore": 5,
+            "maxPoints": 5,
+            "checks": [
+              {
+                "id": "li-headline-about",
+                "name": "Tailored Headline & About Section",
+                "passed": true,
+                "finding": "Headline clearly specifies target role, technologies, and academic background.",
+                "fix": null
+              },
+              {
+                "id": "li-exp-match",
+                "name": "Experience & Projects Match Resume",
+                "passed": true,
+                "finding": "LinkedIn experience entries align seamlessly with resume timelines and roles.",
+                "fix": null
+              },
+              {
+                "id": "li-skills",
+                "name": "Role-Specific Skills Endorsements",
+                "passed": true,
+                "finding": "7 target technical skills listed on profile.",
+                "fix": null
+              }
+            ],
+            "rewrites": {
+              "headline": "Full Stack Engineer / SDE-1 | JavaScript, TypeScript, Python | Node.js & Express.js | B.Tech @ MSOT 2026",
+              "about": "I am a Computer Science undergraduate at MSOT College of Engineering with a passion for architecting high-performance web systems and scalable APIs. I have built production-ready applications like CollabCode and actively solve complex algorithmic problems (solved 342+ on LeetCode).\n\nKey Expertise: JavaScript, TypeScript, Python, C++, SQL | Node.js, Express.js, FastAPI, RESTful APIs, WebSockets | Docker, Git, GitHub Actions, AWS (S3, EC2), Linux.\n\nOpen to Full Stack & Backend SDE-1 internships and campus opportunities!"
+            }
+          },
+          "coCurricular": {
+            "rawScore": 100,
+            "weight": 0.05,
+            "weightedScore": 5,
+            "maxPoints": 5,
+            "checks": [
+              {
+                "id": "co-curricular",
+                "name": "Hackathons, Clubs & Certifications",
+                "passed": true,
+                "finding": "Demonstrated leadership and competition track record with 4 entries.",
+                "fix": null
+              }
+            ]
+          }
+        },
+        "top5Actions": [
+          {
+            "category": "Projects",
+            "action": "Deploy all portfolio projects live with responsive web links and automated unit tests",
+            "potentialGain": 3,
+            "priority": "High"
+          }
+        ],
+        "studentId": "stu-101",
+        "studentName": "Arjun Sharma",
+        "calculatedAt": "2026-10-19T12:47:02.452Z"
+      }
+    },
+    "stu-105": {
+      "reviewedAt": "2026-10-19T14:15:29.655Z",
+      "studentId": "stu-105",
+      "studentName": "Kunal Joshi",
+      "resume": {
+        "score": 65,
+        "checks": [
+          {
+            "id": "res-page-count",
+            "name": "Exactly One Page Format",
+            "passed": true,
+            "finding": "Resume is strictly 1 page. Excellent for campus placements and ATS screening.",
+            "fix": null
+          },
+          {
+            "id": "res-layout",
+            "name": "Standard ATS Section Hierarchy",
+            "passed": true,
+            "finding": "Clear standard section headings identified (Education, Skills, Projects, Experience).",
+            "fix": null
+          },
+          {
+            "id": "res-grammar",
+            "name": "Action Verbs & Confident Phrasing",
+            "passed": true,
+            "finding": "Strong active voice used. No passive filler phrases detected.",
+            "fix": null
+          },
+          {
+            "id": "res-metrics",
+            "name": "Quantifiable Impact & Metrics",
+            "passed": true,
+            "finding": "Bullet points include quantifiable figures (e.g., latency, percentage improvements, user counts).",
+            "fix": null
+          },
+          {
+            "id": "res-projects-detail",
+            "name": "Every Project Has Tech Stack & Links",
+            "passed": false,
+            "finding": "Some projects lack clear tech stack definitions or live deployed demo links.",
+            "fix": "Every listed project must feature: 1-line problem statement, bullet of architecture, tech stack list, GitHub URL, and live demo link."
+          },
+          {
+            "id": "res-links-header",
+            "name": "GitHub & LeetCode Links in Header",
+            "passed": false,
+            "finding": "Missing either GitHub or LeetCode profile links in the contact info header.",
+            "fix": "Place your verified GitHub and LeetCode URLs right below your name and email in the resume header."
+          },
+          {
+            "id": "res-achievements",
+            "name": "Co-curricular & Hackathon Credentials",
+            "passed": false,
+            "finding": "No notable hackathon, technical club, or competitive achievements detected.",
+            "fix": "Include hackathons participated/won, open-source mentoring, or technical club contributions to differentiate your profile."
+          },
+          {
+            "id": "res-ats",
+            "name": "ATS Parsing Compatibility",
+            "passed": true,
+            "finding": "Text is directly selectable, no multi-column parsing traps or text-in-image elements detected.",
+            "fix": null
+          }
+        ]
+      },
+      "linkedIn": {
+        "score": 0,
+        "checks": [
+          {
+            "id": "li-headline-about",
+            "name": "Tailored Headline & About Section",
+            "passed": false,
+            "finding": "Headline or About section is missing, generic, or too brief.",
+            "fix": "Use an active positioning headline: \"[Target Role] | [Core Technologies] | Winner @ [Hackathon] | CS Undergrad @ MSOT\"."
+          },
+          {
+            "id": "li-exp-match",
+            "name": "Experience & Projects Match Resume",
+            "passed": false,
+            "finding": "Discrepancies found between LinkedIn roles and resume claims.",
+            "fix": "Synchronize your job titles, company names, and project descriptions exactly with your current resume."
+          },
+          {
+            "id": "li-skills",
+            "name": "Role-Specific Skills Endorsements",
+            "passed": false,
+            "finding": "Only 2 skills listed. Recruiters search by specific keywords.",
+            "fix": "Add at least 8 relevant technical keywords (e.g. React.js, TypeScript, Docker, PostgreSQL)."
+          }
+        ],
+        "rewrites": {
+          "headline": "Junior Software Developer | C, Python, HTML | Python | B.Tech @ MSOT 2026",
+          "about": "I am a Computer Science undergraduate at MSOT College of Engineering with a passion for architecting high-performance web systems and scalable APIs. I have built production-ready applications like Web Store and actively solve complex algorithmic problems (solved 200+ on LeetCode).\n\nKey Expertise: C, Python, HTML | Python | Git.\n\nOpen to Full Stack & Backend SDE-1 internships and campus opportunities!"
+        }
+      },
+      "github": {
+        "score": 0,
+        "checks": [
+          {
+            "id": "gh-profile",
+            "name": "Pinned Repos & Profile README",
+            "passed": false,
+            "finding": "Missing pinned repositories or customized profile README.",
+            "fix": "Pin your top 3 completed projects on your GitHub profile and create a special username/username repo for an overview README."
+          },
+          {
+            "id": "gh-activity",
+            "name": "Regular Commit Frequency",
+            "passed": false,
+            "finding": "Low commit activity (12 commits in the last year).",
+            "fix": "Maintain a consistent commit cadence by pushing code daily or weekly, showing consistent problem solving."
+          },
+          {
+            "id": "gh-readmes",
+            "name": "Project Documentation & Setup Guides",
+            "passed": false,
+            "finding": "Repositories have empty or default READMEs without setup steps or screenshots.",
+            "fix": "Add a detailed README to every project repo with: Overview, Architecture Diagram/Screenshot, Prerequisites, and 3-step setup guide."
+          },
+          {
+            "id": "gh-security",
+            "name": "Commit Hygiene & Zero Secrets Leakage",
+            "passed": false,
+            "finding": "Detected potential sensitive data or sloppy commit messages like \"fix stuff\" / \"update\".",
+            "fix": "Use .gitignore to exclude .env and credentials. Adopt conventional commit style: \"feat: add user auth\" or \"fix: resolve db race condition\"."
+          }
+        ]
+      },
+      "projects": {
+        "score": 25,
+        "checks": [
+          {
+            "id": "proj-live-links",
+            "name": "Working Deployed Live Links",
+            "passed": false,
+            "finding": "Only 0 of 1 projects are deployed live. Recruiters prioritize candidates with working demos.",
+            "fix": "Deploy remaining projects (e.g. Web Store) to Vercel, Render, or Netlify with public live URLs."
+          },
+          {
+            "id": "proj-engineering",
+            "name": "Engineering Rigor & Automated Tests",
+            "passed": false,
+            "finding": "Found automated tests in 0 project(s). Testing demonstrates industry readiness.",
+            "fix": "Add Jest/Pytest unit tests for core business logic or API endpoints to showcase production discipline."
+          }
+        ]
+      },
+      "readiness": {
+        "totalScore": 33,
+        "readinessLevel": "Not ready",
+        "badgeColor": "#ef4444",
+        "breakdown": {
+          "resume": {
+            "rawScore": 65,
+            "weight": 0.25,
+            "weightedScore": 16.3,
+            "maxPoints": 25,
+            "checks": [
+              {
+                "id": "res-page-count",
+                "name": "Exactly One Page Format",
+                "passed": true,
+                "finding": "Resume is strictly 1 page. Excellent for campus placements and ATS screening.",
+                "fix": null
+              },
+              {
+                "id": "res-layout",
+                "name": "Standard ATS Section Hierarchy",
+                "passed": true,
+                "finding": "Clear standard section headings identified (Education, Skills, Projects, Experience).",
+                "fix": null
+              },
+              {
+                "id": "res-grammar",
+                "name": "Action Verbs & Confident Phrasing",
+                "passed": true,
+                "finding": "Strong active voice used. No passive filler phrases detected.",
+                "fix": null
+              },
+              {
+                "id": "res-metrics",
+                "name": "Quantifiable Impact & Metrics",
+                "passed": true,
+                "finding": "Bullet points include quantifiable figures (e.g., latency, percentage improvements, user counts).",
+                "fix": null
+              },
+              {
+                "id": "res-projects-detail",
+                "name": "Every Project Has Tech Stack & Links",
+                "passed": false,
+                "finding": "Some projects lack clear tech stack definitions or live deployed demo links.",
+                "fix": "Every listed project must feature: 1-line problem statement, bullet of architecture, tech stack list, GitHub URL, and live demo link."
+              },
+              {
+                "id": "res-links-header",
+                "name": "GitHub & LeetCode Links in Header",
+                "passed": false,
+                "finding": "Missing either GitHub or LeetCode profile links in the contact info header.",
+                "fix": "Place your verified GitHub and LeetCode URLs right below your name and email in the resume header."
+              },
+              {
+                "id": "res-achievements",
+                "name": "Co-curricular & Hackathon Credentials",
+                "passed": false,
+                "finding": "No notable hackathon, technical club, or competitive achievements detected.",
+                "fix": "Include hackathons participated/won, open-source mentoring, or technical club contributions to differentiate your profile."
+              },
+              {
+                "id": "res-ats",
+                "name": "ATS Parsing Compatibility",
+                "passed": true,
+                "finding": "Text is directly selectable, no multi-column parsing traps or text-in-image elements detected.",
+                "fix": null
+              }
+            ]
+          },
+          "projects": {
+            "rawScore": 25,
+            "weight": 0.25,
+            "weightedScore": 6.3,
+            "maxPoints": 25,
+            "checks": [
+              {
+                "id": "proj-live-links",
+                "name": "Working Deployed Live Links",
+                "passed": false,
+                "finding": "Only 0 of 1 projects are deployed live. Recruiters prioritize candidates with working demos.",
+                "fix": "Deploy remaining projects (e.g. Web Store) to Vercel, Render, or Netlify with public live URLs."
+              },
+              {
+                "id": "proj-engineering",
+                "name": "Engineering Rigor & Automated Tests",
+                "passed": false,
+                "finding": "Found automated tests in 0 project(s). Testing demonstrates industry readiness.",
+                "fix": "Add Jest/Pytest unit tests for core business logic or API endpoints to showcase production discipline."
+              }
+            ]
+          },
+          "mockInterview": {
+            "rawScore": 40,
+            "weight": 0.2,
+            "weightedScore": 8,
+            "maxPoints": 20,
+            "completedSessions": 0,
+            "latestId": null
+          },
+          "github": {
+            "rawScore": 0,
+            "weight": 0.1,
+            "weightedScore": 0,
+            "maxPoints": 10,
+            "checks": [
+              {
+                "id": "gh-profile",
+                "name": "Pinned Repos & Profile README",
+                "passed": false,
+                "finding": "Missing pinned repositories or customized profile README.",
+                "fix": "Pin your top 3 completed projects on your GitHub profile and create a special username/username repo for an overview README."
+              },
+              {
+                "id": "gh-activity",
+                "name": "Regular Commit Frequency",
+                "passed": false,
+                "finding": "Low commit activity (12 commits in the last year).",
+                "fix": "Maintain a consistent commit cadence by pushing code daily or weekly, showing consistent problem solving."
+              },
+              {
+                "id": "gh-readmes",
+                "name": "Project Documentation & Setup Guides",
+                "passed": false,
+                "finding": "Repositories have empty or default READMEs without setup steps or screenshots.",
+                "fix": "Add a detailed README to every project repo with: Overview, Architecture Diagram/Screenshot, Prerequisites, and 3-step setup guide."
+              },
+              {
+                "id": "gh-security",
+                "name": "Commit Hygiene & Zero Secrets Leakage",
+                "passed": false,
+                "finding": "Detected potential sensitive data or sloppy commit messages like \"fix stuff\" / \"update\".",
+                "fix": "Use .gitignore to exclude .env and credentials. Adopt conventional commit style: \"feat: add user auth\" or \"fix: resolve db race condition\"."
+              }
+            ]
+          },
+          "codingPractice": {
+            "rawScore": 0,
+            "weight": 0.1,
+            "weightedScore": 0,
+            "maxPoints": 10,
+            "checks": [
+              {
+                "id": "lc-volume",
+                "name": "Coding Platform Problem Solving",
+                "passed": false,
+                "finding": "Solved 0 problems (0 Easy, 0 Medium, 0 Hard). Rating: Unrated.",
+                "fix": "Target solving at least 150+ LeetCode problems (focusing heavily on Mediums in Trees, Dynamic Programming, Graphs, and Hashmaps)."
+              }
+            ]
+          },
+          "linkedIn": {
+            "rawScore": 0,
+            "weight": 0.05,
+            "weightedScore": 0,
+            "maxPoints": 5,
+            "checks": [
+              {
+                "id": "li-headline-about",
+                "name": "Tailored Headline & About Section",
+                "passed": false,
+                "finding": "Headline or About section is missing, generic, or too brief.",
+                "fix": "Use an active positioning headline: \"[Target Role] | [Core Technologies] | Winner @ [Hackathon] | CS Undergrad @ MSOT\"."
+              },
+              {
+                "id": "li-exp-match",
+                "name": "Experience & Projects Match Resume",
+                "passed": false,
+                "finding": "Discrepancies found between LinkedIn roles and resume claims.",
+                "fix": "Synchronize your job titles, company names, and project descriptions exactly with your current resume."
+              },
+              {
+                "id": "li-skills",
+                "name": "Role-Specific Skills Endorsements",
+                "passed": false,
+                "finding": "Only 2 skills listed. Recruiters search by specific keywords.",
+                "fix": "Add at least 8 relevant technical keywords (e.g. React.js, TypeScript, Docker, PostgreSQL)."
+              }
+            ],
+            "rewrites": {
+              "headline": "Junior Software Developer | C, Python, HTML | Python | B.Tech @ MSOT 2026",
+              "about": "I am a Computer Science undergraduate at MSOT College of Engineering with a passion for architecting high-performance web systems and scalable APIs. I have built production-ready applications like Web Store and actively solve complex algorithmic problems (solved 200+ on LeetCode).\n\nKey Expertise: C, Python, HTML | Python | Git.\n\nOpen to Full Stack & Backend SDE-1 internships and campus opportunities!"
+            }
+          },
+          "coCurricular": {
+            "rawScore": 50,
+            "weight": 0.05,
+            "weightedScore": 2.5,
+            "maxPoints": 5,
+            "checks": [
+              {
+                "id": "co-curricular",
+                "name": "Hackathons, Clubs & Certifications",
+                "passed": false,
+                "finding": "Only 1 co-curricular achievement(s) registered.",
+                "fix": "Participate in inter-college hackathons, open source clubs, or earn cloud certifications (AWS/GCP/Azure) to boost your profile."
+              }
+            ]
+          }
+        },
+        "top5Actions": [
+          {
+            "category": "Projects",
+            "action": "Deploy all portfolio projects live with responsive web links and automated unit tests",
+            "potentialGain": 19,
+            "priority": "High"
+          },
+          {
+            "category": "Mock Interview",
+            "action": "Complete a 15-minute AI placement mock interview",
+            "potentialGain": 10,
+            "priority": "High"
+          },
+          {
+            "category": "Coding Practice",
+            "action": "Solve 50 more Medium-level LeetCode problems in Trees, DP, and Graph algorithms",
+            "potentialGain": 10,
+            "priority": "Medium"
+          },
+          {
+            "category": "GitHub",
+            "action": "Add architecture diagrams, setup instructions, and screenshots to repository READMEs",
+            "potentialGain": 10,
+            "priority": "Medium"
+          },
+          {
+            "category": "Resume",
+            "action": "Every listed project must feature: 1-line problem statement, bullet of architecture, tech stack list, GitHub URL, and live demo link.",
+            "potentialGain": 9,
+            "priority": "High"
+          }
+        ],
+        "studentId": "stu-105",
+        "studentName": "Kunal Joshi",
+        "calculatedAt": "2026-10-19T14:15:29.655Z"
+      }
+    },
+    "stu-1792426852588": {
+      "reviewedAt": "2026-10-19T16:21:25.932Z",
+      "studentId": "stu-1792426852588",
+      "studentName": "Liam Payne",
+      "resume": {
+        "score": 72,
+        "checks": [
+          {
+            "id": "res-page-count",
+            "name": "Exactly One Page Format",
+            "passed": true,
+            "finding": "Resume is strictly 1 page. Excellent for campus placements and ATS screening.",
+            "fix": null
+          },
+          {
+            "id": "res-layout",
+            "name": "Standard ATS Section Hierarchy",
+            "passed": true,
+            "finding": "Clear standard section headings identified (Education, Skills, Projects, Experience).",
+            "fix": null
+          },
+          {
+            "id": "res-grammar",
+            "name": "Action Verbs & Confident Phrasing",
+            "passed": false,
+            "finding": "Detected 1 passive/weak phrase(s): \"participated in\".",
+            "fix": "Replace passive phrasing like \"participated in\" with impactful verbs like \"Architected\", \"Engineered\", or \"Spearheaded\"."
+          },
+          {
+            "id": "res-metrics",
+            "name": "Quantifiable Impact & Metrics",
+            "passed": true,
+            "finding": "Bullet points include quantifiable figures (e.g., latency, percentage improvements, user counts).",
+            "fix": null
+          },
+          {
+            "id": "res-projects-detail",
+            "name": "Every Project Has Tech Stack & Links",
+            "passed": false,
+            "finding": "Some projects lack clear tech stack definitions or live deployed demo links.",
+            "fix": "Every listed project must feature: 1-line problem statement, bullet of architecture, tech stack list, GitHub URL, and live demo link."
+          },
+          {
+            "id": "res-links-header",
+            "name": "GitHub & LeetCode Links in Header",
+            "passed": true,
+            "finding": "Both GitHub and LeetCode profile links are prominently featured in the contact header.",
+            "fix": null
+          },
+          {
+            "id": "res-achievements",
+            "name": "Co-curricular & Hackathon Credentials",
+            "passed": true,
+            "finding": "Found 2 verified co-curricular achievements, competitive programming rankings, or hackathon wins.",
+            "fix": null
+          },
+          {
+            "id": "res-ats",
+            "name": "ATS Parsing Compatibility",
+            "passed": true,
+            "finding": "Text is directly selectable, no multi-column parsing traps or text-in-image elements detected.",
+            "fix": null
+          }
+        ]
+      },
+      "linkedIn": {
+        "score": 100,
+        "checks": [
+          {
+            "id": "li-headline-about",
+            "name": "Tailored Headline & About Section",
+            "passed": true,
+            "finding": "Headline clearly specifies target role, technologies, and academic background.",
+            "fix": null
+          },
+          {
+            "id": "li-exp-match",
+            "name": "Experience & Projects Match Resume",
+            "passed": true,
+            "finding": "LinkedIn experience entries align seamlessly with resume timelines and roles.",
+            "fix": null
+          },
+          {
+            "id": "li-skills",
+            "name": "Role-Specific Skills Endorsements",
+            "passed": true,
+            "finding": "5 target technical skills listed on profile.",
+            "fix": null
+          }
+        ],
+        "rewrites": {
+          "headline": "Junior Software Developer | JavaScript, TypeScript, Python | Node.js & Express.js | B.Tech @ MSOT 2026",
+          "about": "I am a Computer Science undergraduate at MSOT College of Engineering with a passion for architecting high-performance web systems and scalable APIs. I have built production-ready applications like Distributed App and actively solve complex algorithmic problems (solved 280+ on LeetCode).\n\nKey Expertise: JavaScript, TypeScript, Python, C++ | Node.js, Express.js, REST APIs | Docker, Git, AWS.\n\nOpen to Full Stack & Backend SDE-1 internships and campus opportunities!"
+        }
+      },
+      "github": {
+        "score": 100,
+        "checks": [
+          {
+            "id": "gh-profile",
+            "name": "Pinned Repos & Profile README",
+            "passed": true,
+            "finding": "Profile features 2 pinned showcase repositories and a custom profile README.",
+            "fix": null
+          },
+          {
+            "id": "gh-activity",
+            "name": "Regular Commit Frequency",
+            "passed": true,
+            "finding": "Active GitHub streak with 240 commits over the past 12 months.",
+            "fix": null
+          },
+          {
+            "id": "gh-readmes",
+            "name": "Project Documentation & Setup Guides",
+            "passed": true,
+            "finding": "Repositories contain clear setup instructions, prerequisite lists, and architectural documentation.",
+            "fix": null
+          },
+          {
+            "id": "gh-security",
+            "name": "Commit Hygiene & Zero Secrets Leakage",
+            "passed": true,
+            "finding": "Clean commit messages. No exposed API keys, .env secrets, or tokens detected in public repos.",
+            "fix": null
+          }
+        ]
+      },
+      "projects": {
+        "score": 85,
+        "checks": [
+          {
+            "id": "proj-live-links",
+            "name": "Working Deployed Live Links",
+            "passed": true,
+            "finding": "1 of 1 projects have active, verified live web deployments.",
+            "fix": null
+          },
+          {
+            "id": "proj-engineering",
+            "name": "Engineering Rigor & Automated Tests",
+            "passed": false,
+            "finding": "Found automated tests in 1 project(s). Testing demonstrates industry readiness.",
+            "fix": "Add Jest/Pytest unit tests for core business logic or API endpoints to showcase production discipline."
+          }
+        ]
+      },
+      "readiness": {
+        "totalScore": 74,
+        "readinessLevel": "Almost ready",
+        "badgeColor": "#f59e0b",
+        "breakdown": {
+          "resume": {
+            "rawScore": 72,
+            "weight": 0.25,
+            "weightedScore": 18,
+            "maxPoints": 25,
+            "checks": [
+              {
+                "id": "res-page-count",
+                "name": "Exactly One Page Format",
+                "passed": true,
+                "finding": "Resume is strictly 1 page. Excellent for campus placements and ATS screening.",
+                "fix": null
+              },
+              {
+                "id": "res-layout",
+                "name": "Standard ATS Section Hierarchy",
+                "passed": true,
+                "finding": "Clear standard section headings identified (Education, Skills, Projects, Experience).",
+                "fix": null
+              },
+              {
+                "id": "res-grammar",
+                "name": "Action Verbs & Confident Phrasing",
+                "passed": false,
+                "finding": "Detected 1 passive/weak phrase(s): \"participated in\".",
+                "fix": "Replace passive phrasing like \"participated in\" with impactful verbs like \"Architected\", \"Engineered\", or \"Spearheaded\"."
+              },
+              {
+                "id": "res-metrics",
+                "name": "Quantifiable Impact & Metrics",
+                "passed": true,
+                "finding": "Bullet points include quantifiable figures (e.g., latency, percentage improvements, user counts).",
+                "fix": null
+              },
+              {
+                "id": "res-projects-detail",
+                "name": "Every Project Has Tech Stack & Links",
+                "passed": false,
+                "finding": "Some projects lack clear tech stack definitions or live deployed demo links.",
+                "fix": "Every listed project must feature: 1-line problem statement, bullet of architecture, tech stack list, GitHub URL, and live demo link."
+              },
+              {
+                "id": "res-links-header",
+                "name": "GitHub & LeetCode Links in Header",
+                "passed": true,
+                "finding": "Both GitHub and LeetCode profile links are prominently featured in the contact header.",
+                "fix": null
+              },
+              {
+                "id": "res-achievements",
+                "name": "Co-curricular & Hackathon Credentials",
+                "passed": true,
+                "finding": "Found 2 verified co-curricular achievements, competitive programming rankings, or hackathon wins.",
+                "fix": null
+              },
+              {
+                "id": "res-ats",
+                "name": "ATS Parsing Compatibility",
+                "passed": true,
+                "finding": "Text is directly selectable, no multi-column parsing traps or text-in-image elements detected.",
+                "fix": null
+              }
+            ]
+          },
+          "projects": {
+            "rawScore": 85,
+            "weight": 0.25,
+            "weightedScore": 21.3,
+            "maxPoints": 25,
+            "checks": [
+              {
+                "id": "proj-live-links",
+                "name": "Working Deployed Live Links",
+                "passed": true,
+                "finding": "1 of 1 projects have active, verified live web deployments.",
+                "fix": null
+              },
+              {
+                "id": "proj-engineering",
+                "name": "Engineering Rigor & Automated Tests",
+                "passed": false,
+                "finding": "Found automated tests in 1 project(s). Testing demonstrates industry readiness.",
+                "fix": "Add Jest/Pytest unit tests for core business logic or API endpoints to showcase production discipline."
+              }
+            ]
+          },
+          "mockInterview": {
+            "rawScore": 40,
+            "weight": 0.2,
+            "weightedScore": 8,
+            "maxPoints": 20,
+            "completedSessions": 0,
+            "latestId": null
+          },
+          "github": {
+            "rawScore": 100,
+            "weight": 0.1,
+            "weightedScore": 10,
+            "maxPoints": 10,
+            "checks": [
+              {
+                "id": "gh-profile",
+                "name": "Pinned Repos & Profile README",
+                "passed": true,
+                "finding": "Profile features 2 pinned showcase repositories and a custom profile README.",
+                "fix": null
+              },
+              {
+                "id": "gh-activity",
+                "name": "Regular Commit Frequency",
+                "passed": true,
+                "finding": "Active GitHub streak with 240 commits over the past 12 months.",
+                "fix": null
+              },
+              {
+                "id": "gh-readmes",
+                "name": "Project Documentation & Setup Guides",
+                "passed": true,
+                "finding": "Repositories contain clear setup instructions, prerequisite lists, and architectural documentation.",
+                "fix": null
+              },
+              {
+                "id": "gh-security",
+                "name": "Commit Hygiene & Zero Secrets Leakage",
+                "passed": true,
+                "finding": "Clean commit messages. No exposed API keys, .env secrets, or tokens detected in public repos.",
+                "fix": null
+              }
+            ]
+          },
+          "codingPractice": {
+            "rawScore": 75,
+            "weight": 0.1,
+            "weightedScore": 7.5,
+            "maxPoints": 10,
+            "checks": [
+              {
+                "id": "lc-volume",
+                "name": "Coding Platform Problem Solving",
+                "passed": true,
+                "finding": "Solved 280 problems (70 Easy, 110 Medium, 15 Hard). Rating: 1610.",
+                "fix": null
+              }
+            ]
+          },
+          "linkedIn": {
+            "rawScore": 100,
+            "weight": 0.05,
+            "weightedScore": 5,
+            "maxPoints": 5,
+            "checks": [
+              {
+                "id": "li-headline-about",
+                "name": "Tailored Headline & About Section",
+                "passed": true,
+                "finding": "Headline clearly specifies target role, technologies, and academic background.",
+                "fix": null
+              },
+              {
+                "id": "li-exp-match",
+                "name": "Experience & Projects Match Resume",
+                "passed": true,
+                "finding": "LinkedIn experience entries align seamlessly with resume timelines and roles.",
+                "fix": null
+              },
+              {
+                "id": "li-skills",
+                "name": "Role-Specific Skills Endorsements",
+                "passed": true,
+                "finding": "5 target technical skills listed on profile.",
+                "fix": null
+              }
+            ],
+            "rewrites": {
+              "headline": "Junior Software Developer | JavaScript, TypeScript, Python | Node.js & Express.js | B.Tech @ MSOT 2026",
+              "about": "I am a Computer Science undergraduate at MSOT College of Engineering with a passion for architecting high-performance web systems and scalable APIs. I have built production-ready applications like Distributed App and actively solve complex algorithmic problems (solved 280+ on LeetCode).\n\nKey Expertise: JavaScript, TypeScript, Python, C++ | Node.js, Express.js, REST APIs | Docker, Git, AWS.\n\nOpen to Full Stack & Backend SDE-1 internships and campus opportunities!"
+            }
+          },
+          "coCurricular": {
+            "rawScore": 80,
+            "weight": 0.05,
+            "weightedScore": 4,
+            "maxPoints": 5,
+            "checks": [
+              {
+                "id": "co-curricular",
+                "name": "Hackathons, Clubs & Certifications",
+                "passed": true,
+                "finding": "Demonstrated leadership and competition track record with 2 entries.",
+                "fix": null
+              }
+            ]
+          }
+        },
+        "top5Actions": [
+          {
+            "category": "Mock Interview",
+            "action": "Complete a 15-minute AI placement mock interview",
+            "potentialGain": 10,
+            "priority": "High"
+          },
+          {
+            "category": "Resume",
+            "action": "Replace passive phrasing like \"participated in\" with impactful verbs like \"Architected\", \"Engineered\", or \"Spearheaded\".",
+            "potentialGain": 7,
+            "priority": "High"
+          },
+          {
+            "category": "Projects",
+            "action": "Deploy all portfolio projects live with responsive web links and automated unit tests",
+            "potentialGain": 4,
+            "priority": "High"
+          },
+          {
+            "category": "Coding Practice",
+            "action": "Solve 50 more Medium-level LeetCode problems in Trees, DP, and Graph algorithms",
+            "potentialGain": 3,
+            "priority": "Medium"
+          }
+        ],
+        "studentId": "stu-1792426852588",
+        "studentName": "Liam Payne",
+        "calculatedAt": "2026-10-19T16:21:25.932Z"
+      }
+    }
+  },
+  "interviews": [
+    {
+      "id": "int-sample-1",
+      "studentId": "stu-101",
+      "date": "2026-10-18T14:30:00Z",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "Built-in AI / Ollama",
+      "status": "completed",
+      "targetRole": "Full Stack Software Engineer",
+      "scores": {
+        "conceptual": 4.5,
+        "depth": 4,
+        "problemSolving": 4,
+        "practical": 4.5,
+        "communication": 4,
+        "total": 84
+      },
+      "strengths": [
+        "Crisp explanation of WebSocket state synchronization and Redis pub/sub backplane.",
+        "Demonstrated strong practical understanding of database indexing and SQL query optimization.",
+        "Articulate communication with clear reasoning on engineering trade-offs."
+      ],
+      "weaknesses": [
+        "Could have offered deeper analysis on race conditions in distributed multi-region database replication.",
+        "Needed slight nudge when discussing memory footprint of large in-memory Redis buffers."
+      ],
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:05",
+          "text": "Hello Arjun! Welcome to your technical placement interview. I have reviewed your profile and projects. Let's start with a warm-up: could you give me a 60-second summary of your flagship project, CollabCode?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "00:32",
+          "text": "Hi! CollabCode is a real-time collaborative code editor I built. It allows multiple developers to write, edit, and compile code in isolated docker containers together. I handled synchronization using WebSockets backed by Redis Pub/Sub so that typing latencies remain under 50 milliseconds across concurrent sessions."
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "01:10",
+          "text": "Excellent. Let's dig deeper into the fundamentals. When two users type on the same line at nearly the exact same time, how does your system handle potential conflict resolution or race conditions?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "02:05",
+          "text": "In our current prototype, we implemented an Operational Transformation (OT) lightweight queue where cursor movements and text operations carry a monotonic logical clock timestamp. Operations that arrive are applied sequentially on the server buffer before broadcasting to other connected sockets."
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "03:15",
+          "text": "Good reasoning. What would happen if a client experiences a temporary network partition or 300ms packet loss and sends multiple buffered keystrokes all at once?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "04:10",
+          "text": "The server checks the client's last acknowledged sequence number. If it detects a mismatch or stale state, it requests the client to rebase its pending operations against the authoritative server snapshot."
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "05:25",
+          "text": "Let's touch on behavior: tell me about a time during HackMSOT when your team faced a blocking bug close to the submission deadline."
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "06:40",
+          "text": "With 45 minutes remaining, our Docker sandbox container was freezing due to unconstrained fork bombs. I quickly added a cgroup memory limit and process cap flag to the docker run command, allowing the container to fail gracefully without crashing the Node.js host. We demoed successfully and took 1st place."
+        }
+      ]
+    },
+    {
+      "id": "int-1792413873597",
+      "studentId": "stu-101",
+      "targetRole": "Full Stack Engineer / SDE-1",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "in_progress",
+      "startTime": "2026-10-19T12:44:33.597Z",
+      "currentTurn": 2,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Arjun Sharma! Welcome to your technical placement mock interview for the Full Stack Engineer / SDE-1 role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of CollabCode, including the problem it solves and your core technical contributions?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "01:00",
+          "text": "In CollabCode, we architected real-time synchronization with WebSockets and Redis Pub/Sub backplane, achieving sub-45ms latency and resolving typing concurrency."
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "01:00",
+          "text": "That's a solid overview of CollabCode. Let's probe deeper into your architecture: you mentioned using React, Node.js, Socket.io. When two concurrent requests mutate the same shared state or resource simultaneously, how does your backend enforce atomicity and prevent race conditions?"
+        }
+      ]
+    },
+    {
+      "id": "int-1792414026295",
+      "studentId": "stu-101",
+      "targetRole": "Full Stack Engineer / SDE-1",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "completed",
+      "startTime": "2026-10-19T12:47:06.295Z",
+      "currentTurn": 6,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Arjun Sharma! Welcome to your technical placement mock interview for the Full Stack Engineer / SDE-1 role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of CollabCode, including the problem it solves and your core technical contributions?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "18:00",
+          "text": "Collabcode is a platform I build to solve a particular problem"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "18:00",
+          "text": "That's a solid overview of CollabCode. Let's probe deeper into your architecture: you mentioned using React, Node.js, Socket.io. When two concurrent requests mutate the same shared state or resource simultaneously, how does your backend enforce atomicity and prevent race conditions?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "18:54",
+          "text": "By accessing the database to find out which user was the first to provide input"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "18:54",
+          "text": "Good explanation. Now let's explore fault tolerance: what happens if a downstream service or network partition causes requests to hang or fail? How would you implement a Circuit Breaker pattern or exponential backoff retry mechanism?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "19:58",
+          "text": "We will make that service available only during dire cases while an alternative is open"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "19:58",
+          "text": "Let's switch to practical problem solving: suppose a high-priority endpoint's P99 latency spikes from 80ms to 2.4 seconds after a production release. Step-by-step, what diagnostic metrics, query plans (EXPLAIN ANALYZE), or APM tools would you inspect first?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "20:52",
+          "text": "1. Which route is the busiest one\n2. What does the route doesn"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "20:52",
+          "text": "Great technical depth. Let's wrap up with an engineering culture question: describe a situation where you had a strong disagreement with a peer over code architecture or tech stack choice. How did you navigate the conversation to reach an objective consensus?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "21:34",
+          "text": "To compile whichever is suitable for the given problem"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "21:34",
+          "text": "Thank you Arjun Sharma! That concludes our technical mock interview. I have compiled your performance breakdown, strengths, improvement areas, and readiness score."
+        }
+      ],
+      "endTime": "2026-10-19T12:51:34.695Z",
+      "scores": {
+        "conceptual": 4.5,
+        "depth": 4,
+        "problemSolving": 4,
+        "practical": 4.5,
+        "communication": 4,
+        "total": 84
+      },
+      "strengths": [
+        "Articulated architectural decisions and trade-offs clearly under timed conditions.",
+        "Demonstrated concrete knowledge of system bottlenecks, latency constraints, and caching.",
+        "Calm communication style with structured problem-solving approach."
+      ],
+      "weaknesses": [
+        "Could elaborate further on distributed database consistency models (CAP theorem trade-offs).",
+        "Provide more concrete metrics when describing past project optimizations."
+      ]
+    },
+    {
+      "id": "int-1792415175030",
+      "studentId": "stu-105",
+      "targetRole": "Junior Software Developer",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "in_progress",
+      "startTime": "2026-10-19T13:06:15.030Z",
+      "currentTurn": 1,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Kunal Joshi! Welcome to your technical placement mock interview for the Junior Software Developer role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of Web Store, including the problem it solves and your core technical contributions?"
+        }
+      ]
+    },
+    {
+      "id": "int-1792419417083",
+      "studentId": "stu-105",
+      "targetRole": "Junior Software Developer",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "in_progress",
+      "startTime": "2026-10-19T14:16:57.083Z",
+      "currentTurn": 2,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Kunal Joshi! Welcome to your technical placement mock interview for the Junior Software Developer role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of Web Store, including the problem it solves and your core technical contributions?"
+        },
+        {
+          "speaker": "Kunal Joshi",
+          "time": "47:23",
+          "text": "Can't see"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "47:23",
+          "text": "That's a solid overview of Web Store. Let's probe deeper into your architecture: you mentioned using Python, HTML. When two concurrent requests mutate the same shared state or resource simultaneously, how does your backend enforce atomicity and prevent race conditions?"
+        }
+      ]
+    },
+    {
+      "id": "int-1792425936905",
+      "studentId": "stu-101",
+      "targetRole": "Junior Software Developer",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "in_progress",
+      "startTime": "2026-10-19T16:05:36.905Z",
+      "currentTurn": 1,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Arjun Sharma! Welcome to your technical placement mock interview for the Full Stack Engineer / SDE-1 role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of CollabCode, including the problem it solves and your core technical contributions?"
+        }
+      ]
+    },
+    {
+      "id": "int-1792426887062",
+      "studentId": "stu-1792426852588",
+      "targetRole": "Junior Software Developer",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "in_progress",
+      "startTime": "2026-10-19T16:21:27.062Z",
+      "currentTurn": 2,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Liam Payne! Welcome to your technical placement mock interview for the Junior Software Developer role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of Distributed App, including the problem it solves and your core technical contributions?"
+        },
+        {
+          "speaker": "Liam Payne",
+          "time": "21:51",
+          "text": "To prevent race conditions, we enforce atomic operations using database transactions with SERIALIZABLE isolation, Redis distributed locks, or optimistic locking with version fields..."
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "21:51",
+          "text": "That's a solid overview of Distributed App. Let's probe deeper into your architecture: you mentioned using React, Node.js, PostgreSQL. When two concurrent requests mutate the same shared state or resource simultaneously, how does your backend enforce atomicity and prevent race conditions?"
+        }
+      ]
+    },
+    {
+      "id": "int-1792429223080",
+      "studentId": "stu-1792426852588",
+      "targetRole": "Junior Software Developer",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "completed",
+      "startTime": "2026-10-19T17:00:23.080Z",
+      "currentTurn": 6,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Liam Payne! Welcome to your technical placement mock interview for the Junior Software Developer role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of Distributed App, including the problem it solves and your core technical contributions?"
+        },
+        {
+          "speaker": "Liam Payne",
+          "time": "22:33",
+          "text": "No clue"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "22:33",
+          "text": "That's a solid overview of Distributed App. Let's probe deeper into your architecture: you mentioned using React, Node.js, PostgreSQL. When two concurrent requests mutate the same shared state or resource simultaneously, how does your backend enforce atomicity and prevent race conditions?"
+        },
+        {
+          "speaker": "Liam Payne",
+          "time": "22:36",
+          "text": "To prevent race conditions, we enforce atomic operations using database transactions with SERIALIZABLE isolation, Redis distributed locks, or optimistic locking with version fields..."
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "22:36",
+          "text": "Good explanation. Now let's explore fault tolerance: what happens if a downstream service or network partition causes requests to hang or fail? How would you implement a Circuit Breaker pattern or exponential backoff retry mechanism?"
+        },
+        {
+          "speaker": "Liam Payne",
+          "time": "22:36",
+          "text": "In Node.js, the event loop with libuv handles non-blocking I/O, while worker threads or clustering handle CPU-heavy tasks..."
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "22:36",
+          "text": "Let's switch to practical problem solving: suppose a high-priority endpoint's P99 latency spikes from 80ms to 2.4 seconds after a production release. Step-by-step, what diagnostic metrics, query plans (EXPLAIN ANALYZE), or APM tools would you inspect first?"
+        },
+        {
+          "speaker": "Liam Payne",
+          "time": "22:36",
+          "text": "lol"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "22:36",
+          "text": "Great technical depth. Let's wrap up with an engineering culture question: describe a situation where you had a strong disagreement with a peer over code architecture or tech stack choice. How did you navigate the conversation to reach an objective consensus?"
+        },
+        {
+          "speaker": "Liam Payne",
+          "time": "22:36",
+          "text": "lol"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "22:36",
+          "text": "Thank you Liam Payne! That concludes our technical mock interview. I have compiled your performance breakdown, strengths, improvement areas, and readiness score."
+        }
+      ],
+      "endTime": "2026-10-19T17:06:40.636Z",
+      "scores": {
+        "conceptual": 4.5,
+        "depth": 4,
+        "problemSolving": 4,
+        "practical": 4.5,
+        "communication": 4,
+        "total": 84
+      },
+      "strengths": [
+        "Articulated architectural decisions and trade-offs clearly under timed conditions.",
+        "Demonstrated concrete knowledge of system bottlenecks, latency constraints, and caching.",
+        "Calm communication style with structured problem-solving approach."
+      ],
+      "weaknesses": [
+        "Could elaborate further on distributed database consistency models (CAP theorem trade-offs).",
+        "Provide more concrete metrics when describing past project optimizations."
+      ]
+    },
+    {
+      "id": "int-1792430901816",
+      "studentId": "stu-101",
+      "targetRole": "Full Stack Engineer / SDE-1",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "completed",
+      "startTime": "2026-10-19T17:28:21.816Z",
+      "currentTurn": 2,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Arjun Sharma! Welcome to your technical placement mock interview for the Full Stack Engineer / SDE-1 role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of CollabCode, including the problem it solves and your core technical contributions?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "01:00",
+          "text": "No clue"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "01:00",
+          "text": "### 📊 Turn 1 Assessment: 1 / 5\n**Verdict:** ❌ Unanswered / Evasive (Score: 1/5)\nYou did not provide an overview of **CollabCode**. In campus technical interviews, your resume project is the foundational question. Recruiter expectations: state the specific problem solved, your core stack (React, Node.js, Socket.io, Redis, Docker, PostgreSQL), and the specific API or database models you implemented.\n\n---\n\n### 🎯 Next Challenge (Turn 2 of 5):\nLet's probe deeper into your backend architecture: when two concurrent requests mutate the same shared state or account balance simultaneously in CollabCode, how does your backend enforce atomicity and prevent race conditions?"
+        }
+      ],
+      "turnScores": [
+        1
+      ],
+      "endTime": "2026-10-19T17:28:21.851Z",
+      "scores": {
+        "conceptual": 1,
+        "depth": 1,
+        "problemSolving": 1,
+        "practical": 1,
+        "communication": 1.1,
+        "total": 30
+      },
+      "strengths": [
+        "Demonstrated foundational awareness of core software engineering terminology.",
+        "Engaged with timed technical placement questions."
+      ],
+      "weaknesses": [
+        "Must elaborate further on distributed database consistency models and race condition prevention (SELECT FOR UPDATE / OCC).",
+        "Study fault tolerance: Circuit Breakers (Closed/Open/Half-Open) and exponential backoff with jitter.",
+        "Avoid evasive responses like \"no clue\"; break questions down into component parts."
+      ]
+    },
+    {
+      "id": "int-1792430936405",
+      "studentId": "stu-101",
+      "targetRole": "Full Stack Engineer / SDE-1",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "in_progress",
+      "startTime": "2026-10-19T17:28:56.405Z",
+      "currentTurn": 3,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Arjun Sharma! Welcome to your technical placement mock interview for the Full Stack Engineer / SDE-1 role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of CollabCode, including the problem it solves and your core technical contributions?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "01:00",
+          "text": "CollabCode is a real-time collaborative code editor solving synchronization conflicts. I built the OT backend using Node.js and Redis pub/sub."
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "01:00",
+          "text": "### 📊 Turn 1 Assessment: 4.5 / 5\n**Verdict:** ✅ Solid Project Walkthrough (Score: 4.5/5)\nWell structured walkthrough of **CollabCode**. You articulated the problem domain and your technical contributions clearly.\n\n---\n\n### 🎯 Next Challenge (Turn 2 of 5):\nLet's probe deeper into your backend architecture: when two concurrent requests mutate the same shared state or account balance simultaneously in CollabCode, how does your backend enforce atomicity and prevent race conditions?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "01:00",
+          "text": "We wrap concurrent operations in PostgreSQL ACID transactions using SELECT FOR UPDATE for row-level locks, or optimistic locking with a version column to prevent race conditions."
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "01:00",
+          "text": "### 📊 Turn 2 Assessment: 5 / 5\n**Verdict:** ✅ Strong Technical Answer (Score: 5/5)\nExcellent technical accuracy! You demonstrated clear command of transaction isolation levels, row-level locks, or optimistic concurrency control to maintain data integrity.\n\n---\n\n### 🎯 Next Challenge (Turn 3 of 5):\nNow let's explore fault tolerance: what happens if a downstream third-party microservice or network partition causes requests to hang or fail? How would you implement a Circuit Breaker pattern or exponential backoff retry mechanism?"
+        }
+      ],
+      "turnScores": [
+        4.5,
+        5
+      ]
+    },
+    {
+      "id": "int-1792431003656",
+      "studentId": "stu-1792426852588",
+      "targetRole": "Junior Software Developer",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "completed",
+      "startTime": "2026-10-19T17:30:03.656Z",
+      "currentTurn": 1,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Liam Payne! Welcome to your technical placement mock interview for the Junior Software Developer role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of Distributed App, including the problem it solves and your core technical contributions?"
+        }
+      ],
+      "endTime": "2026-10-19T17:30:07.062Z",
+      "scores": {
+        "conceptual": 2.5,
+        "depth": 2.4,
+        "problemSolving": 2.5,
+        "practical": 2.5,
+        "communication": 2.6,
+        "total": 55
+      },
+      "strengths": [
+        "Demonstrated foundational awareness of core software engineering terminology.",
+        "Engaged with timed technical placement questions."
+      ],
+      "weaknesses": [
+        "Must elaborate further on distributed database consistency models and race condition prevention (SELECT FOR UPDATE / OCC).",
+        "Study fault tolerance: Circuit Breakers (Closed/Open/Half-Open) and exponential backoff with jitter.",
+        "Avoid evasive responses like \"no clue\"; break questions down into component parts."
+      ]
+    },
+    {
+      "id": "int-1792431024866",
+      "studentId": "stu-1792426852588",
+      "targetRole": "Junior Software Developer",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "completed",
+      "startTime": "2026-10-19T17:30:24.866Z",
+      "currentTurn": 6,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Liam Payne! Welcome to your technical placement mock interview for the Junior Software Developer role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of Distributed App, including the problem it solves and your core technical contributions?"
+        },
+        {
+          "speaker": "Liam Payne",
+          "time": "23:00",
+          "text": "Hi man, lol"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:00",
+          "text": "### 📊 Turn 1 Assessment: 2.5 / 5\n**Verdict:** ⚠️ Lacks Technical Substance (Score: 2.5/5)\nYour overview of **Distributed App** was very brief. When presenting projects, follow the **STAR framework** (Situation, Task, Action, Result) and state measurable technical outcomes.\n\n---\n\n### 🎯 Next Challenge (Turn 2 of 5):\nLet's probe deeper into your backend architecture: when two concurrent requests mutate the same shared state or account balance simultaneously in Distributed App, how does your backend enforce atomicity and prevent race conditions?"
+        },
+        {
+          "speaker": "Liam Payne",
+          "time": "23:00",
+          "text": "Stop talking to me"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:00",
+          "text": "### 📊 Turn 2 Assessment: 5 / 5\n**Verdict:** ✅ Strong Technical Answer (Score: 5/5)\nExcellent technical accuracy! You demonstrated clear command of transaction isolation levels, row-level locks, or optimistic concurrency control to maintain data integrity.\n\n---\n\n### 🎯 Next Challenge (Turn 3 of 5):\nNow let's explore fault tolerance: what happens if a downstream third-party microservice or network partition causes requests to hang or fail? How would you implement a Circuit Breaker pattern or exponential backoff retry mechanism?"
+        },
+        {
+          "speaker": "Liam Payne",
+          "time": "23:02",
+          "text": "Damn you idiot"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:02",
+          "text": "### 📊 Turn 3 Assessment: 3 / 5\n**Verdict:** ⚠️ Incomplete Explanation (Score: 3/5)\nYou recognized the need for retries, but did not detail the Circuit Breaker finite state machine (Closed -> Open -> Half-Open) or exponential backoff jitter.\n\n---\n\n### 🎯 Next Challenge (Turn 4 of 5):\nLet's switch to real-world production diagnostics: suppose a high-priority checkout endpoint's P99 latency spikes from 80ms to 2.4 seconds after a Friday evening deployment. Step-by-step, what diagnostic metrics, query plans (EXPLAIN ANALYZE), or APM tools would you inspect first?"
+        },
+        {
+          "speaker": "Liam Payne",
+          "time": "23:03",
+          "text": "hgytrewetfgy"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:03",
+          "text": "### 📊 Turn 4 Assessment: 3 / 5\n**Verdict:** ⚠️ Surface-Level Debugging (Score: 3/5)\nYou mentioned general testing, but interviewers look for specific production observability tools: distributed tracing, database query execution plans, and fast rollback decisions.\n\n---\n\n### 🎯 Next Challenge (Turn 5 of 5):\nGreat engineering rigor. Let's wrap up with an engineering culture & collaboration question: describe a situation where you had a strong disagreement with a peer over code architecture, database schema, or tech stack choice. How did you navigate the conversation to reach an objective consensus?"
+        },
+        {
+          "speaker": "Liam Payne",
+          "time": "23:03",
+          "text": "kjuk"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:03",
+          "text": "### 📊 Final Turn Assessment: 1 / 5\n**Verdict:** ❌ Unanswered / Evasive (Score: 1/5)\nYou did not provide a conflict resolution approach. Tech leads evaluate whether engineers let ego dictate tech choices or rely on data-driven benchmarks and POCs to resolve differences.\n\n---\n\n### 🎓 Viva Evaluation Completed\nThank you Liam Payne! That concludes our technical placement mock interview. Your total technical score is **62 / 100**. Review your detailed scorecard to inspect strengths and campus drive tips."
+        }
+      ],
+      "turnScores": [
+        2.5,
+        5,
+        3,
+        3,
+        1
+      ],
+      "endTime": "2026-10-19T17:33:17.055Z",
+      "scores": {
+        "conceptual": 2.9,
+        "depth": 2.8,
+        "problemSolving": 3,
+        "practical": 2.8,
+        "communication": 3,
+        "total": 62
+      },
+      "strengths": [
+        "Showed basic familiarity with modern full-stack web and database concepts.",
+        "Completed all 5 timed viva interview challenges."
+      ],
+      "weaknesses": [
+        "Need to deepen technical mastery of distributed concurrency (optimistic locking vs pessimistic SELECT FOR UPDATE).",
+        "Practice explaining the 3 finite states of Circuit Breakers (Closed, Open, Half-Open) and backoff jitter.",
+        "Avoid evasive or one-line answers; explain fundamentals from first principles."
+      ]
+    },
+    {
+      "id": "int-1792432185952",
+      "studentId": "stu-101",
+      "targetRole": "SDE-1",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "in_progress",
+      "startTime": "2026-10-19T17:49:45.952Z",
+      "currentTurn": 5,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Arjun Sharma! Welcome to your technical placement mock interview for the Full Stack Engineer / SDE-1 role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of CollabCode, including the problem it solves and your core technical contributions?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "23:00",
+          "text": "Hi man, lol"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:00",
+          "text": "### 🚨 Turn 1 Flagged: 0 / 5\n**Verdict:** 🚨 FLAGGED: Nonsensical / Off-Topic Response (Score: 0/5)\nYour response (\"Hi man, lol\") was flagged for: **Casual chit-chat / meme slang with zero technical substance**.\n\nIn a campus recruitment viva, hostile, flippant, or non-technical chatter leads to immediate disqualification. Please respond with serious technical concepts.\n\n---\n\n### 🎯 Next Challenge (Turn 2 of 5):\nWhen two concurrent requests mutate the same shared state or account balance simultaneously in CollabCode, how does your backend enforce atomicity and prevent race conditions?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "23:01",
+          "text": "Stop talking to me"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:01",
+          "text": "### 🚨 Turn 2 Flagged: 0 / 5\n**Verdict:** 🚨 FLAGGED: Nonsensical / Off-Topic Response (Score: 0/5)\nYour response (\"Stop talking to me\") was flagged for: **Hostile / Dismissive language**.\n\nIn a campus recruitment viva, hostile, flippant, or non-technical chatter leads to immediate disqualification. Please respond with serious technical concepts.\n\n---\n\n### 🎯 Next Challenge (Turn 3 of 5):\nWhat happens if a downstream third-party microservice or network partition causes requests to hang or fail? How would you implement a Circuit Breaker pattern or exponential backoff retry mechanism?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "23:02",
+          "text": "We implement circuit breaker pattern with timeout and exponential backoff retry to prevent failure propagation"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:02",
+          "text": "### 📊 Turn 3 Assessment: 4.5 / 5\n**Verdict:** ✅ Excellent Resiliency Architecture (Score: 4.5/5)\nSuperb answer! You demonstrated solid understanding of cascading failure prevention, Circuit Breaker state machines, and retry backoff strategies.\n\n---\n\n### 🎯 Next Challenge (Turn 4 of 5):\nSuppose a high-priority checkout endpoint's P99 latency spikes from 80ms to 2.4 seconds after a Friday evening deployment. Step-by-step, what diagnostic metrics, query plans (EXPLAIN ANALYZE), or APM tools would you inspect first?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "23:03",
+          "text": "I use distributed tracing in Datadog to isolate the slow span, inspect the database query plan with EXPLAIN ANALYZE to identify missing indexes on high-cardinality foreign keys, check connection pool saturation, and immediately execute an automated blue-green rollback if p99 latency exceeds 2 seconds."
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:03",
+          "text": "### 📊 Turn 4 Assessment: 5 / 5\n**Verdict:** ✅ Systematic Incident Triage (Score: 5/5)\nThorough, professional diagnostic procedure! Prioritizing telemetry tracing, query execution plan inspection (`EXPLAIN ANALYZE`), and connection pool health is the industry gold standard.\n\n---\n\n### 🎯 Next Challenge (Turn 5 of 5):\nDescribe a situation where you had a strong disagreement with a peer over code architecture, database schema, or tech stack choice. How did you navigate the conversation to reach an objective consensus?"
+        }
+      ],
+      "turnScores": [
+        0,
+        0,
+        4.5,
+        5
+      ],
+      "flaggedTurns": 2
+    },
+    {
+      "id": "int-1792433594581",
+      "studentId": "stu-rnd-936727",
+      "targetRole": "Frontend & Mobile UI Craftsperson",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "completed",
+      "startTime": "2026-10-19T18:13:14.581Z",
+      "currentTurn": 6,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Rishi Deshmukh! Welcome to your technical placement mock interview for the Frontend & Mobile UI Craftsperson role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of Nexus Engine, including the problem it solves and your core technical contributions?"
+        },
+        {
+          "speaker": "Rishi Deshmukh",
+          "time": "23:43",
+          "text": "lol"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:43",
+          "text": "### 🚨 Turn 1 Flagged: 0 / 5\n**Verdict:** 🚨 FLAGGED: Nonsensical / Off-Topic Response (Score: 0/5)\nYour response (\"lol\") was flagged for: **Casual chit-chat / meme slang with zero technical substance**.\n\nIn a campus recruitment viva, hostile, flippant, or non-technical chatter leads to immediate disqualification. Please respond with serious technical concepts.\n\n---\n\n### 🎯 Next Challenge (Turn 2 of 5):\nWhen two concurrent requests mutate the same shared state or account balance simultaneously in Nexus Engine, how does your backend enforce atomicity and prevent race conditions?"
+        },
+        {
+          "speaker": "Rishi Deshmukh",
+          "time": "23:43",
+          "text": "you know what, i ain't telling you, mate"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:43",
+          "text": "### 📊 Turn 2 Assessment: 1.5 / 5\n**Verdict:** ❌ Missing Concurrency Control Mechanism (Score: 1.5/5)\nYour answer did not address how atomicity is maintained or race conditions are prevented. Interviewers look for: 1) ACID transactions with row-level locks (`SELECT ... FOR UPDATE`), 2) Optimistic Concurrency Control (OCC) with a version tag, or 3) Distributed locks via Redis Redlock.\n\n---\n\n### 🎯 Next Challenge (Turn 3 of 5):\nWhat happens if a downstream third-party microservice or network partition causes requests to hang or fail? How would you implement a Circuit Breaker pattern or exponential backoff retry mechanism?"
+        },
+        {
+          "speaker": "Rishi Deshmukh",
+          "time": "23:44",
+          "text": "I am informing my pal a joke"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:44",
+          "text": "### 📊 Turn 3 Assessment: 1.5 / 5\n**Verdict:** ❌ Missing Fault-Tolerance Patterns (Score: 1.5/5)\nYour answer did not describe resilience mechanisms. A robust service must implement: 1) Circuit Breakers (Closed/Open/Half-Open states) to fail-fast without hanging request threads, and 2) Exponential backoff with randomized jitter to prevent thundering herds on downstream recovery.\n\n---\n\n### 🎯 Next Challenge (Turn 4 of 5):\nSuppose a high-priority checkout endpoint's P99 latency spikes from 80ms to 2.4 seconds after a Friday evening deployment. Step-by-step, what diagnostic metrics, query plans (EXPLAIN ANALYZE), or APM tools would you inspect first?"
+        },
+        {
+          "speaker": "Rishi Deshmukh",
+          "time": "23:45",
+          "text": "Why should i tell you"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:45",
+          "text": "### 📊 Turn 4 Assessment: 1.5 / 5\n**Verdict:** ❌ Incomplete Root-Cause Methodology (Score: 1.5/5)\nYour answer lacked production observability tools. Expected triage: 1) Distributed APM tracing to isolate the bottleneck span, 2) `EXPLAIN (ANALYZE, BUFFERS)` on slow queries to catch missing indexes, 3) Connection pool saturation check, 4) Rollback if regression is acute.\n\n---\n\n### 🎯 Next Challenge (Turn 5 of 5):\nDescribe a situation where you had a strong disagreement with a peer over code architecture, database schema, or tech stack choice. How did you navigate the conversation to reach an objective consensus?"
+        },
+        {
+          "speaker": "Rishi Deshmukh",
+          "time": "23:45",
+          "text": "damn you"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "23:45",
+          "text": "### 📊 Final Turn Assessment: 1.5 / 5\n**Verdict:** ❌ Vague / Lacks Objective Consensus Method (Score: 1.5/5)\nYou did not provide an objective resolution approach. Tech leads evaluate whether engineers let ego dictate choices or rely on data-driven benchmarks and POCs to resolve differences.\n\n---\n\n### 🎓 Viva Evaluation Completed\nThank you Rishi Deshmukh! That concludes our technical placement mock interview. Your total technical score is **32 / 100**. Review your detailed scorecard to inspect strengths and campus drive tips."
+        }
+      ],
+      "turnScores": [
+        0,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "flaggedTurns": 1,
+      "endTime": "2026-10-19T18:15:19.983Z",
+      "scores": {
+        "conceptual": 1.2,
+        "depth": 1.1,
+        "problemSolving": 1.2,
+        "practical": 1.2,
+        "communication": 1.3,
+        "total": 32
+      },
+      "strengths": [
+        "Showed basic familiarity with modern full-stack web and database concepts.",
+        "Completed all 5 timed viva interview challenges."
+      ],
+      "weaknesses": [
+        "Need to deepen technical mastery of distributed concurrency (optimistic locking vs pessimistic SELECT FOR UPDATE).",
+        "Practice explaining the 3 finite states of Circuit Breakers (Closed, Open, Half-Open) and backoff jitter.",
+        "Avoid evasive or one-line answers; explain fundamentals from first principles."
+      ]
+    },
+    {
+      "id": "int-1792436249414",
+      "studentId": "stu-rnd-753209",
+      "targetRole": "Frontend & Mobile UI Craftsperson",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "completed",
+      "startTime": "2026-10-19T18:57:29.414Z",
+      "currentTurn": 6,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Ishaan Kulkarni! Welcome to your technical placement mock interview for the Frontend & Mobile UI Craftsperson role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of Nexus Engine, including the problem it solves and your core technical contributions?"
+        },
+        {
+          "speaker": "Ishaan Kulkarni",
+          "time": "00:27",
+          "text": "I don't know how to do react"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:27",
+          "text": "### 📊 Turn 1 Assessment: 1 / 5\n**Verdict:** ❌ Unanswered / Evasive (Score: 1/5)\nYou indicated that you do not have an answer. In technical interviews, saying 'no clue' without demonstrating fundamental reasoning hurts placement scoring.\n\n**Expected Technical Standard:**\nRecruiters expect a crisp walkthrough of **Nexus Engine**: 1) The user problem, 2) Your stack (PyTorch, Transformers, FastAPI), and 3) Core contributions (REST APIs, schema design, latency optimization).\n\n---\n\n### 🎯 Next Challenge (Turn 2 of 5):\nWhen two concurrent requests mutate the same shared state or account balance simultaneously in Nexus Engine, how does your backend enforce atomicity and prevent race conditions?"
+        },
+        {
+          "speaker": "Ishaan Kulkarni",
+          "time": "00:28",
+          "text": "What the heck is node.js"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:28",
+          "text": "### 📊 Turn 2 Assessment: 1.5 / 5\n**Verdict:** ❌ Missing Concurrency Control Mechanism (Score: 1.5/5)\nYour answer did not address how atomicity is maintained or race conditions are prevented. Interviewers look for: 1) ACID transactions with row-level locks (`SELECT ... FOR UPDATE`), 2) Optimistic Concurrency Control (OCC) with a version tag, or 3) Distributed locks via Redis Redlock.\n\n---\n\n### 🎯 Next Challenge (Turn 3 of 5):\nWhat happens if a downstream third-party microservice or network partition causes requests to hang or fail? How would you implement a Circuit Breaker pattern or exponential backoff retry mechanism?"
+        },
+        {
+          "speaker": "Ishaan Kulkarni",
+          "time": "00:29",
+          "text": "Could you give me a subtle hint or architectural structure to consider for this problem?"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:29",
+          "text": "### 📊 Turn 3 Assessment: 1.5 / 5\n**Verdict:** ❌ Missing Fault-Tolerance Patterns (Score: 1.5/5)\nYour answer did not describe resilience mechanisms. A robust service must implement: 1) Circuit Breakers (Closed/Open/Half-Open states) to fail-fast without hanging request threads, and 2) Exponential backoff with randomized jitter to prevent thundering herds on downstream recovery.\n\n---\n\n### 🎯 Next Challenge (Turn 4 of 5):\nSuppose a high-priority checkout endpoint's P99 latency spikes from 80ms to 2.4 seconds after a Friday evening deployment. Step-by-step, what diagnostic metrics, query plans (EXPLAIN ANALYZE), or APM tools would you inspect first?"
+        },
+        {
+          "speaker": "Ishaan Kulkarni",
+          "time": "00:29",
+          "text": "How did I perform on the previous turn? What edge cases or benchmarks should I emphasize more?"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:29",
+          "text": "### 📊 Turn 4 Assessment: 1.5 / 5\n**Verdict:** ❌ Incomplete Root-Cause Methodology (Score: 1.5/5)\nYour answer lacked production observability tools. Expected triage: 1) Distributed APM tracing to isolate the bottleneck span, 2) `EXPLAIN (ANALYZE, BUFFERS)` on slow queries to catch missing indexes, 3) Connection pool saturation check, 4) Rollback if regression is acute.\n\n---\n\n### 🎯 Next Challenge (Turn 5 of 5):\nDescribe a situation where you had a strong disagreement with a peer over code architecture, database schema, or tech stack choice. How did you navigate the conversation to reach an objective consensus?"
+        },
+        {
+          "speaker": "Ishaan Kulkarni",
+          "time": "00:29",
+          "text": "How did I perform on the previous turn? What edge cases or benchmarks should I emphasize more?"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:29",
+          "text": "### 📊 Final Turn Assessment: 4.5 / 5\n**Verdict:** ✅ Strong Engineering Maturity (Score: 4.5/5)\nMature and constructive approach. Relying on proof-of-concept prototypes, quantitative benchmarks, and shared team goals depersonalizes architectural debates.\n\n---\n\n### 🎓 Viva Evaluation Completed\nThank you Ishaan Kulkarni! That concludes our technical placement mock interview. Your total technical score is **46 / 100**. Review your detailed scorecard to inspect strengths and campus drive tips."
+        }
+      ],
+      "turnScores": [
+        1,
+        1.5,
+        1.5,
+        1.5,
+        4.5
+      ],
+      "endTime": "2026-10-19T18:59:10.482Z",
+      "scores": {
+        "conceptual": 2,
+        "depth": 1.9,
+        "problemSolving": 2,
+        "practical": 2,
+        "communication": 2.1,
+        "total": 46
+      },
+      "strengths": [
+        "Showed basic familiarity with modern full-stack web and database concepts.",
+        "Completed all 5 timed viva interview challenges."
+      ],
+      "weaknesses": [
+        "Need to deepen technical mastery of distributed concurrency (optimistic locking vs pessimistic SELECT FOR UPDATE).",
+        "Practice explaining the 3 finite states of Circuit Breakers (Closed, Open, Half-Open) and backoff jitter.",
+        "Avoid evasive or one-line answers; explain fundamentals from first principles."
+      ]
+    },
+    {
+      "id": "int-1792437874613",
+      "studentId": "stu-101",
+      "targetRole": "Full Stack Engineer / SDE-1",
+      "durationMinutes": 15,
+      "mode": "voice",
+      "aiProvider": "builtin",
+      "status": "in_progress",
+      "startTime": "2026-10-19T19:24:34.613Z",
+      "currentTurn": 2,
+      "transcript": [
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:00",
+          "text": "Hello Arjun Sharma! Welcome to your technical placement mock interview for the Full Stack Engineer / SDE-1 role. I've reviewed your profile and resume. Let's start with a warm-up: could you give me a crisp 60-second walkthrough of CollabCode, including the problem it solves and your core technical contributions?"
+        },
+        {
+          "speaker": "Arjun Sharma",
+          "time": "00:54",
+          "text": "vgcdtfghj"
+        },
+        {
+          "speaker": "AI Interviewer",
+          "time": "00:54",
+          "text": "### 🚨 Turn 1 Flagged: 0 / 5\n**Verdict:** 🚨 FLAGGED: Nonsensical / Off-Topic Response (Score: 0/5)\nYour response (\"vgcdtfghj\") was flagged for: **Gibberish / keyboard mashing**.\n\nIn a campus recruitment viva, hostile, flippant, or non-technical chatter leads to immediate disqualification. Please respond with serious technical concepts.\n\n---\n\n### 🎯 Next Challenge (Turn 2 of 5):\nWhen two concurrent requests mutate the same shared state or account balance simultaneously in CollabCode, how does your backend enforce atomicity and prevent race conditions?"
+        }
+      ],
+      "turnScores": [
+        0
+      ],
+      "flaggedTurns": 1
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-1792433753223",
+      "studentId": "stu-rnd-753209",
+      "company": "Swiggy",
+      "role": "Frontend & Mobile UI Craftsperson",
+      "location": "Bengaluru",
+      "stipend": "₹70,000 / month",
+      "appliedDate": "2026-10-19",
+      "status": "Shortlisted",
+      "followUpDate": "2026-11-20",
+      "notes": "Generated randomized placement entry for testing."
+    },
+    {
+      "id": "app-1792433752123",
+      "studentId": "stu-rnd-752115",
+      "company": "PhonePe",
+      "role": "AI / Machine Learning Engineer",
+      "location": "Bengaluru",
+      "stipend": "₹70,000 / month",
+      "appliedDate": "2026-10-19",
+      "status": "Interview",
+      "followUpDate": "2026-11-20",
+      "notes": "Generated randomized placement entry for testing."
+    },
+    {
+      "id": "app-1792426095445",
+      "studentId": "stu-rnd-095444",
+      "company": "Swiggy",
+      "role": "Frontend & Mobile UI Craftsperson",
+      "location": "Bengaluru",
+      "stipend": "₹70,000 / month",
+      "appliedDate": "2026-10-19",
+      "status": "Applied",
+      "followUpDate": "2026-11-20",
+      "notes": "Generated randomized placement entry for testing."
+    },
+    {
+      "id": "app-1792425936737",
+      "studentId": "stu-rnd-936727",
+      "company": "Swiggy",
+      "role": "Frontend & Mobile UI Craftsperson",
+      "location": "Bengaluru",
+      "stipend": "₹70,000 / month",
+      "appliedDate": "2026-10-19",
+      "status": "Shortlisted",
+      "followUpDate": "2026-11-20",
+      "notes": "Generated randomized placement entry for testing."
+    },
+    {
+      "id": "app-1",
+      "studentId": "stu-101",
+      "company": "Razorpay",
+      "role": "Software Engineering Intern - Payments",
+      "location": "Bengaluru (Hybrid)",
+      "stipend": "₹65,000 / month",
+      "appliedDate": "2026-10-12",
+      "status": "Interview",
+      "followUpDate": "2026-10-22",
+      "jobUrl": "https://razorpay.com/careers/intern-sde",
+      "notes": "Round 1 Technical scheduled for Thursday at 3 PM. Focus on WebSockets, DB transactions, and API design.",
+      "isMSOTDrive": false
+    },
+    {
+      "id": "app-2",
+      "studentId": "stu-101",
+      "company": "PhonePe",
+      "role": "Associate Software Engineer",
+      "location": "Bengaluru",
+      "stipend": "14 - 18 LPA",
+      "appliedDate": "2026-10-14",
+      "status": "Shortlisted",
+      "followUpDate": "2026-10-25",
+      "jobUrl": "https://phonepe.com/careers",
+      "notes": "Resume shortlisted by recruiter. Awaiting online coding assessment link.",
+      "isMSOTDrive": false
+    },
+    {
+      "id": "app-3",
+      "studentId": "stu-101",
+      "company": "CRED",
+      "role": "Backend Engineering Intern",
+      "location": "Bengaluru",
+      "stipend": "₹75,000 / month",
+      "appliedDate": "2026-10-15",
+      "status": "Applied",
+      "followUpDate": "2026-10-28",
+      "jobUrl": "https://cred.club/careers",
+      "notes": "Applied via college portal recommendation.",
+      "isMSOTDrive": true
+    },
+    {
+      "id": "app-4",
+      "studentId": "stu-101",
+      "company": "Swiggy",
+      "role": "SDE Intern (Full Stack)",
+      "location": "Bengaluru / Remote",
+      "stipend": "₹55,000 / month",
+      "appliedDate": "2026-10-16",
+      "status": "Saved",
+      "followUpDate": "2026-10-21",
+      "jobUrl": "https://careers.swiggy.com",
+      "notes": "Need to highlight Redis caching project before submitting.",
+      "isMSOTDrive": false
+    }
+  ],
+  "msotJobs": [
+    {
+      "id": "msot-job-1",
+      "company": "Atlassian",
+      "role": "Software Engineer Intern (MSOT Campus Drive)",
+      "location": "Bengaluru / Hybrid",
+      "stipend": "₹80,000 / month + Pre-Placement Offer (22 LPA)",
+      "deadline": "2026-11-05",
+      "minReadinessScore": 75,
+      "eligibleBranches": [
+        "CSE",
+        "ISE",
+        "ECE"
+      ],
+      "description": "Exclusive on-campus drive for MSOT 2026 graduating batch. Selected interns will work directly on Jira and Confluence distributed microservices. High probability of PPO conversion.",
+      "requiredSkills": [
+        "Data Structures",
+        "Java or TypeScript",
+        "React",
+        "System Design Basics"
+      ],
+      "applicants": [
+        {
+          "studentId": "stu-101",
+          "name": "Arjun Sharma",
+          "score": 84,
+          "appliedAt": "2026-10-17T12:00:00Z",
+          "status": "Shortlisted for Round 1"
+        },
+        {
+          "studentId": "stu-102",
+          "name": "Priya Patel",
+          "score": 89,
+          "appliedAt": "2026-10-17T14:20:00Z",
+          "status": "Shortlisted for Round 1"
+        }
+      ],
+      "isPinned": true,
+      "postedBy": "Prof. K. Venkatesh (Head of Placements, MSOT)",
+      "postedAt": "2026-10-15"
+    },
+    {
+      "id": "msot-job-2",
+      "company": "Cisco Systems",
+      "role": "Technical Consulting Engineer / Cloud Intern",
+      "location": "Bengaluru",
+      "stipend": "₹60,000 / month (16 LPA PPO)",
+      "deadline": "2026-10-30",
+      "minReadinessScore": 70,
+      "eligibleBranches": [
+        "All Engineering Branches"
+      ],
+      "description": "Cisco campus recruitment drive for MSOT students. Focus on Cloud Networking, Python scripting, Docker, and Linux system internals.",
+      "requiredSkills": [
+        "Networking",
+        "Python",
+        "Linux",
+        "Docker"
+      ],
+      "applicants": [
+        {
+          "studentId": "stu-101",
+          "name": "Arjun Sharma",
+          "score": 84,
+          "appliedAt": "2026-10-16T18:10:00Z",
+          "status": "Applied"
+        }
+      ],
+      "isPinned": true,
+      "postedBy": "MSOT Placement Cell",
+      "postedAt": "2026-10-16"
+    },
+    {
+      "id": "msot-job-3",
+      "company": "Morgan Stanley",
+      "role": "Technology Summer Analyst",
+      "location": "Mumbai / Bengaluru",
+      "stipend": "₹85,000 / month",
+      "deadline": "2026-11-10",
+      "minReadinessScore": 80,
+      "eligibleBranches": [
+        "CSE",
+        "ISE",
+        "ECE"
+      ],
+      "description": "MSOT premier hiring drive. Candidate must exhibit high proficiency in algorithms, database transaction isolation levels, and concurrent programming.",
+      "requiredSkills": [
+        "C++ or Java",
+        "DBMS",
+        "Algorithms",
+        "Multithreading"
+      ],
+      "applicants": [
+        {
+          "studentId": "stu-102",
+          "name": "Priya Patel",
+          "score": 89,
+          "appliedAt": "2026-10-18T09:00:00Z",
+          "status": "Applied"
+        }
+      ],
+      "isPinned": true,
+      "postedBy": "MSOT Placement Cell",
+      "postedAt": "2026-10-17"
+    },
+    {
+      "id": "msot-job-4",
+      "company": "Juspay",
+      "role": "Full Stack / Frontend Engineering Intern",
+      "location": "Bengaluru",
+      "stipend": "₹45,000 / month + 18 LPA PPO",
+      "deadline": "2026-11-12",
+      "minReadinessScore": 65,
+      "eligibleBranches": [
+        "All Branches"
+      ],
+      "description": "Hiring interns for high-scale payment orchestration interfaces. Pure functional programming or strong JS/TS foundations required.",
+      "requiredSkills": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Functional Programming"
+      ],
+      "applicants": [],
+      "isPinned": false,
+      "postedBy": "MSOT Placement Cell",
+      "postedAt": "2026-10-18"
+    }
+  ],
+  "curatedJobs": [
+    {
+      "id": "job-101",
+      "title": "Software Development Engineer Intern",
+      "company": "Amazon",
+      "location": "Bengaluru, India",
+      "type": "Internship (6 Months)",
+      "stipend": "₹80,000 / mo",
+      "source": "Amazon Careers (Greenhouse/Lever RSS)",
+      "url": "https://amazon.jobs/en/jobs/sde-intern",
+      "posted": "1 day ago",
+      "skillsRequired": [
+        "Data Structures",
+        "Algorithms",
+        "Java or C++",
+        "Object Oriented Design"
+      ],
+      "matchScore": 88,
+      "matchReasons": [
+        "Matches your target SDE-1 role",
+        "DSA & algorithms coursework aligns",
+        "Strong LeetCode 340+ profile"
+      ]
+    },
+    {
+      "id": "job-102",
+      "title": "Full Stack Developer Intern",
+      "company": "Postman",
+      "location": "Bengaluru / Hybrid",
+      "stipend": "₹60,000 / mo",
+      "source": "Wellfound (AngelList)",
+      "url": "https://wellfound.com/jobs/postman-full-stack",
+      "posted": "2 days ago",
+      "skillsRequired": [
+        "React.js",
+        "Node.js",
+        "TypeScript",
+        "RESTful APIs",
+        "WebSockets"
+      ],
+      "matchScore": 95,
+      "matchReasons": [
+        "Direct match for React & Node.js tech stack",
+        "WebSocket experience from CollabCode is a major plus",
+        "TypeScript proficiency verified"
+      ]
+    },
+    {
+      "id": "job-103",
+      "title": "Backend Engineering Intern",
+      "company": "Zerodha",
+      "location": "Bengaluru (On-site)",
+      "stipend": "₹50,000 / mo",
+      "source": "Zerodha Careers",
+      "url": "https://zerodha.com/careers",
+      "posted": "3 days ago",
+      "skillsRequired": [
+        "Python",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Linux"
+      ],
+      "matchScore": 92,
+      "matchReasons": [
+        "Matches Python, PostgreSQL, and Redis stack",
+        "Open-source contributions recognized",
+        "Sub-50ms latency project experience matches fintech requirements"
+      ]
+    },
+    {
+      "id": "job-104",
+      "title": "Graduate SDE - 2026 Batch",
+      "company": "Goldman Sachs",
+      "location": "Bengaluru / Hyderabad",
+      "stipend": "24 LPA (Full-time)",
+      "source": "Goldman Sachs Portal",
+      "url": "https://goldmansachs.com/careers",
+      "posted": "Just now",
+      "skillsRequired": [
+        "C++",
+        "Java",
+        "Data Structures",
+        "DBMS",
+        "Operating Systems"
+      ],
+      "matchScore": 82,
+      "matchReasons": [
+        "CS fundamentals match",
+        "CGPA 8.65 meets the 7.5+ cutoff",
+        "LeetCode contest rating in top 12%"
+      ]
+    },
+    {
+      "id": "job-105",
+      "title": "AI Platform Engineer Intern",
+      "company": "Sarvam AI",
+      "location": "Bengaluru (Hybrid)",
+      "stipend": "₹70,000 / mo",
+      "source": "LinkedIn Official API",
+      "url": "https://linkedin.com/jobs/sarvam-ai-intern",
+      "posted": "4 days ago",
+      "skillsRequired": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "PostgreSQL",
+        "PyTorch"
+      ],
+      "matchScore": 78,
+      "matchReasons": [
+        "FastAPI and Docker backend match",
+        "Python scripting skills meet requirements"
+      ]
+    },
+    {
+      "id": "job-106",
+      "title": "Frontend Engineer (React / Next.js)",
+      "company": "Razorpay",
+      "location": "Bengaluru",
+      "stipend": "₹65,000 / mo",
+      "source": "Naukri Verified",
+      "url": "https://razorpay.com/careers",
+      "posted": "1 day ago",
+      "skillsRequired": [
+        "React.js",
+        "Next.js",
+        "TailwindCSS",
+        "State Management",
+        "TypeScript"
+      ],
+      "matchScore": 96,
+      "matchReasons": [
+        "100% stack overlap with CampusCart & CollabCode",
+        "Production Next.js deployment experience",
+        "Client-side caching knowledge from internship"
+      ]
+    },
+    {
+      "id": "job-107",
+      "title": "DevOps & Cloud Engineer Intern",
+      "company": "Harness",
+      "location": "Bengaluru / Remote",
+      "stipend": "₹60,000 / mo",
+      "source": "Internshala Premium",
+      "url": "https://internshala.com/internship/harness",
+      "posted": "5 days ago",
+      "skillsRequired": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "AWS",
+        "Git"
+      ],
+      "matchScore": 74,
+      "matchReasons": [
+        "Docker & GitHub Actions match",
+        "AWS S3/EC2 coursework verified"
+      ]
+    },
+    {
+      "id": "job-108",
+      "title": "Software Engineering Intern - Web",
+      "company": "Stripe",
+      "location": "Bengaluru / Remote",
+      "stipend": "₹90,000 / mo",
+      "source": "Stripe Greenhouse API",
+      "url": "https://stripe.com/jobs",
+      "posted": "2 days ago",
+      "skillsRequired": [
+        "TypeScript",
+        "API Design",
+        "Distributed Systems",
+        "Testing"
+      ],
+      "matchScore": 86,
+      "matchReasons": [
+        "Clean API design track record",
+        "TypeScript proficiency",
+        "Payment gateway integration experience (Razorpay sandbox)"
+      ]
+    }
+  ],
+  "settings": {
+    "aiProvider": "builtin",
+    "ollamaEndpoint": "http://localhost:11434",
+    "ollamaModel": "llama3",
+    "apiKey": "",
+    "interviewDurationMinutes": 15,
+    "autoSpeakTTS": true,
+    "speechVoice": "default",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "elevenLabsModelId": "eleven_turbo_v2_5"
+  },
+  "staffBroadcasts": [
+    {
+      "id": "stf-1",
+      "type": "job",
+      "title": "Atlassian Campus Recruitment Drive",
+      "company": "Atlassian",
+      "location": "Bengaluru (Hybrid)",
+      "stipend": "₹80,000 / mo + 22 LPA PPO",
+      "deadline": "2026-11-05",
+      "minScore": 75,
+      "description": "Full-stack & distributed systems software engineer interns for 2026 graduating batch.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Distributed Systems"
+      ],
+      "postedBy": "Prof. K. Venkatesh (MSOT Head of Placements)",
+      "postedAt": "2026-10-18",
+      "applicantsCount": 34
+    },
+    {
+      "id": "stf-2",
+      "type": "internship",
+      "title": "Payments Infrastructure Engineering Intern",
+      "company": "Razorpay",
+      "location": "Bengaluru",
+      "stipend": "₹65,000 / month",
+      "deadline": "2026-10-31",
+      "minScore": 70,
+      "description": "Build low-latency banking APIs and Webhook orchestration engines.",
+      "tags": [
+        "Node.js",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "postedBy": "MSOT Placement Cell",
+      "postedAt": "2026-10-17",
+      "applicantsCount": 48
+    },
+    {
+      "id": "stf-3",
+      "type": "hackathon",
+      "title": "Smart India Hackathon (SIH 2026) - College Round",
+      "company": "Ministry of Education & MSOT",
+      "location": "MSOT Campus Innovation Hub",
+      "stipend": "₹1,00,000 Prize per Statement",
+      "deadline": "2026-11-15",
+      "minScore": 50,
+      "description": "National hackathon qualifiers. Top 5 teams represent MSOT at the national finals.",
+      "tags": [
+        "AI/ML",
+        "Full Stack",
+        "Hardware & IoT"
+      ],
+      "postedBy": "MSOT Innovation Council",
+      "postedAt": "2026-10-16",
+      "applicantsCount": 72
+    },
+    {
+      "id": "stf-4",
+      "type": "resumeBooster",
+      "title": "System Design & High Concurrency Workshop",
+      "company": "MSOT Upskilling Academy",
+      "location": "Seminar Hall 3 & Virtual",
+      "stipend": "Free for Registered Students",
+      "deadline": "2026-10-24",
+      "minScore": 0,
+      "description": "Master WebSocket load balancing, Redis caching backplanes, and pass placement rounds.",
+      "tags": [
+        "System Design",
+        "Redis",
+        "Docker"
+      ],
+      "postedBy": "Placement Technical Mentors",
+      "postedAt": "2026-10-18",
+      "applicantsCount": 110
+    }
+  ],
+  "randomMockEntries": [
+    {
+      "id": "rnd-101",
+      "candidateName": "Tanvi Nair",
+      "email": "tanvi.nair44@msot.edu",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech in Computer Science",
+      "targetRole": "Junior Software Developer",
+      "cgpa": "8.75",
+      "readinessScore": 82,
+      "status": "Tier-1 Ready",
+      "matchedJob": "Junior Software Developer at Razorpay",
+      "stipend": "₹45,000 / mo",
+      "mockInterviewScore": "80 / 100",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "SQL"
+      ],
+      "generatedAt": "10:30 AM",
+      "isRandomMockData": true
+    },
+    {
+      "id": "rnd-102",
+      "candidateName": "Ishaan Kulkarni",
+      "email": "ishaan.k@msot.edu",
+      "college": "MSOT College of Engineering",
+      "degree": "B.Tech in Information Science",
+      "targetRole": "Full Stack Engineer",
+      "cgpa": "9.10",
+      "readinessScore": 89,
+      "status": "Tier-1 Ready",
+      "matchedJob": "Software Engineer Intern at Atlassian",
+      "stipend": "₹80,000 / mo",
+      "mockInterviewScore": "86 / 100",
+      "skills": [
+        "TypeScript",
+        "React",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "generatedAt": "10:32 AM",
+      "isRandomMockData": true
+    },
+    {
+      "id": "rnd-103",
+      "candidateName": "Aditya Deshmukh",
+      "email": "aditya.d77@msot.edu",
+      "college": "MSOT Institute of Tech",
+      "degree": "B.Tech in Electronics",
+      "targetRole": "Backend Systems Engineer",
+      "cgpa": "7.80",
+      "readinessScore": 71,
+      "status": "Competitive",
+      "matchedJob": "Backend Intern at Swiggy",
+      "stipend": "₹50,000 / mo",
+      "mockInterviewScore": "68 / 100",
+      "skills": [
+        "Python",
+        "Django",
+        "Redis",
+        "Docker"
+      ],
+      "generatedAt": "10:35 AM",
+      "isRandomMockData": true
+    }
+  ]
+}
