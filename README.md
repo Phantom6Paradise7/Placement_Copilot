@@ -1,6 +1,10 @@
 # Placement Readiness Copilot — Desktop PC Application
 > **An executive desktop application built for students to construct their ATS resumes, explore opportunities, and practice AI mock interviews, while placement staff broadcasts job drives, internships, hackathons, and resume boosters.**
 
+[![Test Report](https://img.shields.io/badge/Verification%20Report-TEST__REPORT.md-success?style=for-the-badge&logo=markdown)](TEST_REPORT.md)
+[![Design Document](https://img.shields.io/badge/Architecture%20Spec-DESIGN__DOCUMENT.md-blue?style=for-the-badge&logo=markdown)](DESIGN_DOCUMENT.md)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Phantom6Paradise7%2FPlacement__Copilot-black?style=for-the-badge&logo=github)](https://github.com/Phantom6Paradise7/Placement_Copilot)
+
 ---
 
 ## 🎨 Design Aesthetic & Desktop Architecture
